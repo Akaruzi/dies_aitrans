@@ -1,70 +1,70 @@
-蓮  莲	player's name, boy
+蓮	莲	player's name, boy
 レン	莲	player's name, boy
-ツァラトゥストラ	查拉图斯特拉    player's name, boy
+ツァラトゥストラ	查拉图斯特拉	player's name, boy
 香純	香纯	綾瀬 香純's firstname, girl, Childhood Friend of player
-カスミ	香纯    綾瀬 香純's firstname, girl, Childhood Friend of player
-バカスミ	笨蛋香纯    綾瀬 香純's nickname, girl, Childhood Friend of player
+カスミ	香纯	綾瀬 香純's firstname, girl, Childhood Friend of player
+バカスミ	笨蛋香纯	綾瀬 香純's nickname, girl, Childhood Friend of player
 綾瀬	绫濑	綾瀬 香純's lastname, girl, Childhood Friend of player
 玲愛	玲爱	氷室 玲愛's firstname, girl, Senpai of player
 氷室	冰室	氷室 玲愛's lastname, girl, Senpai of player
-テレジア	特蕾西亚    氷室 玲愛's baptismal name, girl, Senpai of player
+テレジア	特蕾西亚	氷室 玲愛's baptismal name, girl, Senpai of player
 ゾーネンキント	佐南金索
-先輩    学姐
-螢  萤 櫻井 螢's firstname, girl
-櫻井    櫻井    櫻井 螢's lastname, girl
-レオンハルト	莱昂哈特    櫻井 螢's name, man
-レオン	莱昂    櫻井 螢's name, girl
+先輩	学姐
+螢	萤 櫻井 螢's firstname, girl
+櫻井	櫻井	櫻井 螢's lastname, girl
+レオンハルト	莱昂哈特	櫻井 螢's name, man
+レオン	莱昂	櫻井 螢's name, girl
 司狼	司狼	遊佐 司狼's firstname, boy, player's friend
 遊佐	游佐	遊佐 司狼's lastname, boy, player's friend
-戒  櫻井 戒's firstname, boy
+戒	櫻井 戒's firstname, boy
 カイン	凯因
-トバルカイン	托巴尔凯因  name, man
-マリィ	玛丽    name, girl
-マルグリット	玛格丽特    name, girl
-エリー	艾莉    本城恵梨依's name, girl
-本城    本城    本城恵梨依's lastname, girl
+トバルカイン	托巴尔凯因	name, man
+マリィ	玛丽	name, girl
+マルグリット	玛格丽特	name, girl
+エリー	艾莉	本城恵梨依's name, girl
+本城	本城	本城恵梨依's lastname, girl
 
-ルサルカ	鲁萨尔卡    ルサルカ・シュヴェーゲリン's firstname, girl, playful
-シュヴェーゲリン	施韦格林    ルサルカ・シュヴェーゲリン's lastname, girl  
-アンナ	安娜    ルサルカ・シュヴェーゲリン's othername
-ラインハルト	莱因哈特    ラインハルト・トリスタン・オイゲン・ハイドリヒ's name, man
-ハイドリヒ	海德里希    ラインハルト・トリスタン・オイゲン・ハイドリヒ's name, man
-メルクリウス	梅尔克里乌斯    name, man, alchemist
-カール	卡尔    メルクリウス's name, man, alchemist
-クラフト	克拉夫特    メルクリウス's name, man, alchemist
-カリオストロ	卡里奥斯特罗    メルクリウス's name, man, alchemist
-トリファ	托里法  name, man, godfahter
-ヴァレリア	瓦雷利亚    name, man, godfahter
-クリストフ	克里斯托夫  name, man, godfahter
-聖餐杯	圣餐杯  name, man
-神父    神父    
-ヴィルヘルム	威廉    ヴィルヘルム・エーレンブルグ's name, man
-ベイ	贝  ヴィルヘルム・エーレンブルグ's name, man
-エーレンブルグ	爱登堡  ヴィルヘルム・エーレンブルグ's name, man
-リザ	丽莎    リザ・ブレンナー's name, woman, nun
-バビロン	巴比伦  リザ・ブレンナー's name, woman
-ブレンナー	布伦娜  リザ・ブレンナー's name, woman
-シュライバー	施赖伯  ウォルフガング・シュライバー's name, boy
-ウォルフガング	沃尔夫冈    ウォルフガング・シュライバー's name, boy
-ベルリッヒンゲン    贝尔里辛根  ゲッツ・フォン・ベルリッヒンゲン's name, man
-マキナ	马基那  ゲッツ・フォン・ベルリッヒンゲン's name, man
-ザミエル	扎米尔  エレオノーレ・フォン・ヴィッテンブルグ's name, woman
-エレオノーレ	艾莱奥诺莱  エレオノーレ・フォン・ヴィッテンブルグ's name, woman  
+ルサルカ	鲁萨尔卡	ルサルカ・シュヴェーゲリン's firstname, girl, playful
+シュヴェーゲリン	施韦格林	ルサルカ・シュヴェーゲリン's lastname, girl	
+アンナ	安娜	ルサルカ・シュヴェーゲリン's othername
+ラインハルト	莱因哈特	ラインハルト・トリスタン・オイゲン・ハイドリヒ's name, man
+ハイドリヒ	海德里希	ラインハルト・トリスタン・オイゲン・ハイドリヒ's name, man
+メルクリウス	梅尔克里乌斯	name, man, alchemist
+カール	卡尔	メルクリウス's name, man, alchemist
+クラフト	克拉夫特	メルクリウス's name, man, alchemist
+カリオストロ	卡里奥斯特罗	メルクリウス's name, man, alchemist
+トリファ	托里法	name, man, godfahter
+ヴァレリア	瓦雷利亚	name, man, godfahter
+クリストフ	克里斯托夫	name, man, godfahter
+聖餐杯	圣餐杯	name, man
+神父	神父	
+ヴィルヘルム	威廉	ヴィルヘルム・エーレンブルグ's name, man
+ベイ	贝	ヴィルヘルム・エーレンブルグ's name, man
+エーレンブルグ	爱登堡	ヴィルヘルム・エーレンブルグ's name, man
+リザ	丽莎	リザ・ブレンナー's name, woman, nun
+バビロン	巴比伦	リザ・ブレンナー's name, woman
+ブレンナー	布伦娜	リザ・ブレンナー's name, woman
+シュライバー	施赖伯	ウォルフガング・シュライバー's name, boy
+ウォルフガング	沃尔夫冈	ウォルフガング・シュライバー's name, boy
+ベルリッヒンゲン	贝尔里辛根	ゲッツ・フォン・ベルリッヒンゲン's name, man
+マキナ	马基那	ゲッツ・フォン・ベルリッヒンゲン's name, man
+ザミエル	扎米尔	エレオノーレ・フォン・ヴィッテンブルグ's name, woman
+エレオノーレ	艾莱奥诺莱	エレオノーレ・フォン・ヴィッテンブルグ's name, woman	
 フォン	冯
-ヴィッテンブルグ	威登堡  エレオノーレ・フォン・ヴィッテンブルグ's name, woman
-シュピーネ	舒庇涅  ロート・シュピーネ's name, man
-ベアトリス	贝阿朵丽丝  ベアトリス・ヴァルトルート・フォン・キルヒアイゼン's name, woman
-ヴァルキュリア	瓦尔基里亚  ベアトリス・ヴァルトルート・フォン・キルヒアイゼン's name, woman
-キルヒアイゼン	吉尔希森    ベアトリス・ヴァルトルート・フォン・キルヒアイゼン's name, woman
+ヴィッテンブルグ	威登堡	エレオノーレ・フォン・ヴィッテンブルグ's name, woman
+シュピーネ	舒庇涅	ロート・シュピーネ's name, man
+ベアトリス	贝阿朵丽丝	ベアトリス・ヴァルトルート・フォン・キルヒアイゼン's name, woman
+ヴァルキュリア	瓦尔基里亚	ベアトリス・ヴァルトルート・フォン・キルヒアイゼン's name, woman
+キルヒアイゼン	吉尔希森	ベアトリス・ヴァルトルート・フォン・キルヒアイゼン's name, woman
 
-イザーク	伊萨克  name, man
-ヨハン	约翰    name, man
+イザーク	伊萨克	name, man
+ヨハン	约翰	name, man
 
-ロートス	罗特斯  name, man
-ヴァルター	瓦尔特  name, boy
+ロートス	罗特斯	name, man
+ヴァルター	瓦尔特	name, boy
 
 
-グラズヘイム	格拉兹海姆  
+グラズヘイム	格拉兹海姆	
 シャンバラ	香巴拉
 ヴァルハラ	瓦尔哈拉
 ドイツ	德国

@@ -1,0 +1,161 @@
+/* obj.txt */
+
+#ifndef _OBJ_TXT_
+#define _OBJ_TXT_
+
+int obj;
+RECT rect;
+POINT pt;
+
+/* ------------------------------------------------------------------------- */
+/* ·√ª¸∏ */
+#define IOLM_Message        100
+#define IOLM_LoadImage      (IOLM_Message+ 1) /* §·¸∏nÌ¸…     */
+#define IOLM_PlayFade       (IOLM_Message+ 2) /* ’ß¸…ç         */
+#define IOLM_InitMotion     (IOLM_Message+ 3) /* ˚’           */
+#define IOLM_PlayMotion     (IOLM_Message+ 4) /* ˚’ç             */
+#define IOLM_InitAnime      (IOLM_Message+ 5) /* ¢À·¸∑ÁÛ */
+#define IOLM_PlayAnime      (IOLM_Message+ 6) /* ¢À·¸∑ÁÛç   */
+#define IOLM_SetBlend       (IOLM_Message+ 7) /* ÷ÏÛ…n-ö       */
+#define IOLM_SetImageRect   (IOLM_Message+ 8) /* §·¸∏Èbn-ö   */
+#define IOLM_Clear          (IOLM_Message+ 9) /* ØÍ¢               */
+#define IOLM_LoadMask       (IOLM_Message+10) /* ﬁπØnÌ¸…       */
+#define IOLM_SetRect        (IOLM_Message+11) /* Èbn-ö           */
+#define IOLM_InitMotionRect (IOLM_Message+12) /* Èb˚’       */
+#define IOLM_SetFadeRange   (IOLM_Message+13) /* ’ß¸…E-ö       */
+#define IOLM_SetPos         (IOLM_Message+14) /* Mn-ö             */
+#define IOLM_SetVisible     (IOLM_Message+15) /* h:-ö             */
+#define IOLM_SetText        (IOLM_Message+16) /* ∆≠π»-ö         */
+
+/* FADE_ */
+#define FADE_FI      0 /* ’ß¸…§Û         */
+#define FADE_FO      1 /* ’ß¸…¢¶»       */
+#define FADE_FIFO    2 /* ’ß¸…§Û¢¶» */
+
+/* ------------------------------------------------------------------------- */
+/* ˚’’È∞ */
+#define MOTION_F_RECT 0x2000
+#define MOTION_F_SRC  0x1000
+#define MOTION_T_MASK 0x00FF
+#define MOTION_T_LINE 0x0001
+#define MOTION_T_SIN  0x0002
+#define MOTION_T_COS  0x0003
+
+/* H */
+/* Mnö */
+#define MOTION_LINE         MOTION_T_LINE /* ⁄bÊ */
+#define MOTION_SIN          MOTION_T_SIN  /* SIN      */
+#define MOTION_COS          MOTION_T_COS
+/* Èbö */
+#define MOTION_RECT_LINE    MOTION_T_LINE|MOTION_F_RECT /* ⁄bÊ */
+#define MOTION_RECT_SIN     MOTION_T_SIN |MOTION_F_RECT /* SIN      */
+#define MOTION_RECT_COS     MOTION_T_COS |MOTION_F_RECT
+
+/* C */
+/* Mnö */
+#define MOTION_SRC_LINE     MOTION_T_LINE|MOTION_F_SRC /* ⁄bÊ */
+#define MOTION_SRC_SIN      MOTION_T_SIN |MOTION_F_SRC /* SIN      */
+#define MOTION_SRC_COS      MOTION_T_COS |MOTION_F_SRC
+/* Èbö */
+#define MOTION_SRCRECT_LINE MOTION_T_LINE|MOTION_F_SRC|MOTION_F_RECT /* ⁄bÊ */
+#define MOTION_SRCRECT_SIN  MOTION_T_SIN |MOTION_F_SRC|MOTION_F_RECT /* SIN      */
+#define MOTION_SRCRECT_COS  MOTION_T_COS |MOTION_F_SRC|MOTION_F_RECT
+
+/* BLEND_ */
+#define BLEND_NORMAL 1 /* 8 */
+#define BLEND_ADD    2 /* †ó */
+#define BLEND_SUB    3 /* ó */
+#define BLEND_MUL    4 /* Wó */
+#define BLEND_MASK   0x10 /* ﬁπØ */
+
+/* ------------------------------------------------------------------------- */
+/* ﬁØÌ */
+
+#define FPS_CTRL(fps) \
+	FrameLayer_SendMessage(malie, MSM_SetFrameRate, fps, 0)
+
+/* ÷ó */
+#define _obj(i) \
+	obj = FrameLayer_SendMessage(malie, MSM_GetObject, i, 0);
+
+/* §·¸∏≠º */
+#define _obj_IMAGE(image, mask) \
+	FrameLayer_SendMessage(obj, IOLM_LoadImage, image, mask)
+
+/* §·¸∏Èbn-ö */
+#define _obj_IMAGE_RECT(_l, _t, _r, _b) \
+	RECT_Set(r, _l, _t, _r, _b); \
+	FrameLayer_SendMessage(obj, IOLM_SetImageRect, 0, &rect)
+
+/* ﬁπØ≠º   */
+#define _obj_MASK(color, mask) \
+	FrameLayer_SendMessage(obj, IOLM_LoadMask , color, mask)
+
+/*  */
+#define _obj_CLEAR() \
+	FrameLayer_SendMessage(obj, IOLM_Clear, 0, 0)
+
+/* Èb-ö */
+#define _obj_RECT(_l, _t, _r, _b) \
+	RECT_Set(r, _l, _t, _r, _b); \
+	FrameLayer_SendMessage(obj, IOLM_SetRect, 0, &rect)
+
+/* ’ß¸…E-ö */
+#define _obj_FADE_RANGE(min, max) \
+	FrameLayer_SendMessage(obj, IOLM_SetFadeRange, min, max)
+
+/* FadeIn */
+#define _obj_FI(time) \
+	FrameLayer_SendMessage(obj, IOLM_PlayFade, FADE_FI, time)
+
+/* FadeOut */
+#define _obj_FO(time) \
+	FrameLayer_SendMessage(obj, IOLM_PlayFade, FADE_FO, time)
+
+/* FadeIn */
+#define _obj_FIFO(time) \
+	FrameLayer_SendMessage(obj, IOLM_PlayFade, FADE_FIFO, time)
+
+/* Mn-ö */
+#define _obj_POS(x, y) \
+	FrameLayer_SendMessage(obj, IOLM_SetPos, x, y)
+
+/* h:-ö */
+#define _obj_SHOW(show) \
+	FrameLayer_SendMessage(obj, IOLM_SetVisible, 0, show)
+
+/* ÷ÏÛ… */
+#define _obj_BLEND(blend) \
+	FrameLayer_SendMessage(obj, IOLM_SetBlend, blend, 0)
+
+/*  */
+#define _obj_MOTION(_x, _y, type, time) \
+	pt.x = _x; pt.y = _y; \
+	FrameLayer_SendMessage(obj, IOLM_InitMotion, type, &pt); \
+	FrameLayer_SendMessage(obj, IOLM_PlayMotion, type, time)
+
+#define _obj_MOTION_RECT(_l, _t, _r, _b, type, time) \
+	RECT_Set(r, _l, _t, _r, _b); \
+	FrameLayer_SendMessage(obj, IOLM_InitMotion, type, &rect); \
+	FrameLayer_SendMessage(obj, IOLM_PlayMotion, type, time)
+
+#define _obj_TEXT(color, text) \
+	FrameLayer_SendMessage(obj, IOLM_SetText, color, text)
+
+#define texteffect(text) \
+	_obj(0) \
+	{ \
+		_obj_RECT(0, 400, 640, 440); \
+		_obj_TEXT(0, text); \
+		_obj_SHOW(TRUE); \
+		_obj_FI(500); \
+		WAIT(500); \
+		WAIT(2500); \
+		_obj_FO(500); \
+		WAIT(500); \
+		_obj_SHOW(FALSE); \
+	}
+
+#endif /* _OBJ_TXT_ */
+
+/* eof */

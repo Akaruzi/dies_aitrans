@@ -1,0 +1,107 @@
+/* sultan_h.txt */
+
+#ifndef _SULTAN_H_
+#define _SULTAN_H_
+
+#include "_maliemacro.txt"
+#include "maliesystem.txt"
+
+/*  */
+#define IDS_Adv         300 /* ¢…ŸÛ¡„¸ */
+#define IDS_Movie       301 /* ’;ç       */
+
+/*  */
+#define IDS_Sultan                  440
+#define IDS_Sultan_Title            (IDS_Sultan+1) /* ø§»Î   */
+#define IDS_Sultan_MusicSelect      (IDS_Sultan+2) /* Û}xû   */
+#define IDS_Sultan_Config           (IDS_Sultan+3) /* ≥Û’£∞ */
+#define IDS_Sultan_File             (IDS_Sultan+4) /* ’°§Î   */
+#define IDS_Sultan_MapSelect        (IDS_Sultan+5) /* ﬁ√◊xû */
+#define IDS_Sultan_CGCharaSelect    (IDS_Sultan+6)
+#define IDS_Sultan_CGSelect         (IDS_Sultan+7)
+#define IDS_Sultan_SceneCharaSelect (IDS_Sultan+8)
+#define IDS_Sultan_AlbumSelect      (IDS_Sultan+9)
+#define IDS_Sultan_SceneSelect      (IDS_Sultan+10)
+#define IDS_Sultan_AnotherGenre     (IDS_Sultan+13)
+#define IDS_Sultan_AnotherSelect    (IDS_Sultan+14)
+#define IDS_Magistr_EffManager      (0x0800) /* y%πØÍ¸Û */
+
+/* ·√ª¸∏ */
+/* ﬁ√◊ */
+#define SAM_Map           550
+#define SAM_Map_Setup    (SAM_Map+1) /* ﬁ√◊n-ö   */
+#define SAM_Map_Jump     (SAM_Map+2) /* ﬁ√◊∏„Û◊ */
+
+/* Bì */
+#define SAM_Time         560
+#define SAM_Time_Show    (SAM_Time+1) /* Bình: */
+
+#define ALBUM_SELECT 1000 /* ¢Î–‡xû */
+#define FILE_INFO    1000 /* ’°§Î≈1 */
+
+/* ----------------------------------------------------------------------- */
+/* MovieLayer : ·√ª¸∏ */
+#define MLM_Open  100 /* ãO   */
+#define MLM_Close 101 /* âXã */
+#define MLM_Play  102 /* ç   */
+#define MLM_Stop  103 /* \b   */
+
+#define IDR_BACK    0 /* ;ã       */
+#define IDR_START   1 /* πø¸»   */
+#define IDR_ANOTHER 2 /* ¢ ∂¸   */
+#define IDR_ALBUM   3 /* ¢Î–‡   */
+#define IDR_CG      4 /* #'Qﬁ   */
+#define IDR_SCENE   5 /* ∑¸ÛQﬁ */
+#define IDR_MUSIC   6 /* Û}Qﬁ   */
+
+/*  */
+int result;
+int _map_name;
+
+#define _time(time)  _timeclear(); FrameLayer_SendMessage(app, SAM_Time_Show, time, TRUE)
+#define _timeclear() FrameLayer_SendMessage(app, SAM_Time_Show, "", FALSE)
+
+//#define _bgm(n) Sound_Stop(0); Sound_Sync(0); &sound(0, _bgm_folder n ".mp3"); &play(0)
+#define _bgm(n) Sound_Stop(0); Sound_Sync(0); &sound(0, _bgm_folder n ".ogg"); &play(0)
+#define _bgm_stop FrameLayer_SendMessage(malie, MSM_SoundStop, 0, 1500)
+
+/* ﬁ√◊Ê */
+MAP_SHOW:
+{
+	_cg("map", OL);
+	
+	System_TakeScreen(0);
+	FrameLayer_SendMessage(app, SAM_Map_Setup, 0, _map_name);
+	_changescreen(IDS_Sultan_MapSelect);
+	System_TakeScreen(1);
+	_wipe_set(OL, 1000);
+	&ol;
+	System_TakeScreen(2);
+	
+	_time("");
+	&clear;
+	System_Await();
+	result = System_GetResult();
+	_timeclear();
+	
+	System_TakeScreen(0);
+	_changescreen(IDS_Adv);
+	_loadcg("black");
+	System_TakeScreen(1);
+	FrameLayer_SendMessage(malie, MSM_SoundStop, 0, 4000);
+	_wipe_set(BREAK, 5000);
+	&ol;
+	System_TakeScreen(2);
+
+	System_Goto();
+//	FrameLayer_SendMessage(app, SAM_Map_Jump , result, 0);
+}
+
+#define _saveinfo(name) _name = name; _call(SAVEINFO)
+//#define _saveinfo() _name = ""; _call(SAVEINFO)
+
+#define _map(name) _map_name = name; goto MAP_SHOW
+
+#endif /* _SULTAN_H_ */
+
+/* eof */
