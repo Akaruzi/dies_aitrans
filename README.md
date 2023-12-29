@@ -21,18 +21,17 @@ Todo list
 用garbro提取exec.dat （位置在data1.dat/system/exec.dat)
 
 用16进制编辑器可看出，后部分是unicode的明文剧本
-> ![Pasted image 20231229110201](readme.assets/Pasted image 20231229110201.png)
+![](/readme.assets/Pasted image 20231229110201.png)
 
 前面部分不知道是什么编码形式的文本（可能是编译好的执行文件？）
 
 通过dalao做的工具Light_DatExtract，直接从exec.dat提取所有文本
-> ![Pasted image 20231229110435](readme.assets/Pasted image 20231229110435.png)
+![](./readme.assets/Pasted image 20231229110435.png)
 
 
----
 ## Malie System 调教参考
 
-> [web](https://tieba.baidu.com/p/6282181656?pid=127758453020&cid=#127758453020) ![Pasted image 20231229112128](readme.assets/Pasted image 20231229112128.png)
+> [web](https://tieba.baidu.com/p/6282181656?pid=127758453020&cid=#127758453020) ![Pasted image 20231229112128](./readme.assets/Pasted image 20231229112128.png)
 >
 > camellia应该是一种加密算法，网上有在线的解密工具（对，我就是什么都不懂的fw)
 
