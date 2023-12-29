@@ -1,0 +1,69 @@
+/* _maliemacro.txt */
+
+#ifndef _MALIEMACOR_H_
+#define _MALIEMACOR_H_
+
+/* DOLL Þ¯í */
+#include "_dollmacro.txt"
+
+#define MAX_PATH 128
+
+static int path[MAX_PATH];
+static int path2[MAX_PATH];
+
+/* ----------------------------------------------------------------------- */
+/* Õ©ëÀË */
+#define _data_folder  ".\\data\\"
+#define _bg_folder    _data_folder "picture\\bg\\"
+#define _cg_folder    _data_folder "picture\\event\\"
+#define _se_folder    ".\\data\\Se\\"
+#define _bgm_folder   ".\\data\\Bgm\\"
+#define _voice_folder _data_folder "Voice\\"
+
+#define _bgm(n)   Sound_Stop(0); Sound_Sync(0); &sound(0, _bgm_folder n ".wav"); &play(0)
+#define _voice(n) Sound_Stop(2); Sound_Sync(2); &sound(2, _voice_folder n ".mp3"); &play(2)
+
+/* ----------------------------------------------------------------------- */
+/* ì¤äüX%P */
+#define IDL_Adv_BG           1 /* Ìo              */
+#define IDL_Adv_Message      3 /* áÃ»ü¸        */
+#define IDL_Adv_Novel        5 /* ÎÙë            */
+#define IDL_Adv_Chara       10 /* Ëa­ãé(Malie) */
+#define IDL_Adv_Select     104 /* xž              */
+
+#define LAM_Adv_LoadBG        303
+
+/* ----------------------------------------------------------------------- */
+/* DollSelectLayer : xžì¤äüæ */
+#define SLC_ClearButton 5001 /* Ü¿ón¯ê¢ */
+#define SLC_AddButton   5002 /* Ü¿óný    */
+
+/* layer 	pk xžì¤äü’-š */
+#define _layer_Select() /*layer = System_GetScreen(IDS_Adv);*/ layer = FrameLayer_GetItem(adv, IDL_Adv_Select)
+
+#define _clearbutton()         _layer_Select(); FrameLayer_SendMessage(layer, SLC_ClearButton, NULL, NULL)
+#define _addbutton(id, string) _layer_Select(); FrameLayer_SendMessage(layer, SLC_AddButton, id, string)
+#define _beginselect()         _layer_Select(); FrameLayer_SetVisible(layer, TRUE)
+
+/* ----------------------------------------------------------------------- */
+/* Ìo áÃ»ü¸ */
+
+/* layer 	pk Ìoì¤äü’-š */
+#define ASM_LoadBG 1000
+
+#define _layer_BG() /*app = System_GetScreen(IDS_Lagnalock);*/ FrameLayer_SendMessage(app, LAM_Adv_LoadBG    , name, NULL )
+
+/* layer 	pk Ëa­ãéì¤äü’-š */
+#define _layer_Chara() /*layer = System_GetScreen(IDS_Adv);*/ layer = FrameLayer_GetItem(adv, IDL_Adv_Chara)
+
+/* ----------------------------------------------------------------------- */
+/* Ìo/¤ÙóÈ­¼ */
+#define _loadbg_mgf(n) FrameLayer_SendMessage(app, LAM_Adv_LoadBG, 0, _bg_folder n ".png")
+#define _loadcg_mgf(n) FrameLayer_SendMessage(app, LAM_Adv_LoadBG, 0, _cg_folder n ".png")
+
+#define _bg_load_mgf(n) System_TakeScreen(0); _chara_hide(NULL); _loadbg_mgf(n); System_TakeScreen(1); _ol; System_TakeScreen(2)
+//#define _cg_load_mgf(n) System_TakeScreen(0); _chara_hide(NULL); _loadcg_mgf(n); System_TakeScreen(1); _ol; System_TakeScreen(2)
+
+#endif /* _MALIEMACOR_H_ */
+
+/* eof */

@@ -1,0 +1,816 @@
+/* maliesystem.txt */
+/* Malie System */
+
+#ifndef _MALIESYSTEM_TXT_
+#define _MALIESYSTEM_TXT_
+
+#define PASCAL __stdcall
+#define BOOL   int
+
+#define rand Random
+#define MAKELONG(a, b) ((a) | ((b)<<16))
+
+#define _NOT_USE_
+
+extern int tag();
+extern int getbgmtime();
+extern int qj_flag(); // クイックジャンプ時に保存した値を決定論的に返す
+
+/* ----------------------------------------------------------------------- */
+/* 共通スクリーン識別子 */
+#define IDS_Common                600
+#define IDS_Common_Logo           (IDS_Common+1)
+#define IDS_Common_ScenarioSelect (IDS_Common+2)
+
+/* ----------------------------------------------------------------------- */
+/* 結果識別子 */
+#define IDR_BACK    0 /* 戻る       */
+#define IDR_START   1 /* スタート   */
+#define IDR_ANOTHER 2 /* アナザー   */
+#define IDR_ALBUM   3 /* アルバム   */
+#define IDR_CG      4 /* ＣＧ鑑賞   */
+#define IDR_SCENE   5 /* シーン鑑賞 */
+#define IDR_MUSIC   6 /* 音楽鑑賞   */
+#define IDR_AWARD   7 /* アワード   */
+#define IDR_MOVIE   8 /* 動画鑑賞   */
+#define IDR_SPECIAL 9 /* スペシャル */
+
+/* ------------------------------------------------------------------------- */
+/*  */
+#define IDS_Malie 1000
+#define IDS_MalieSystem_Award       (IDS_Malie+10)
+#define IDS_MalieSystem_MovieSelect (IDS_Malie+12) /* 動画鑑賞 */ 
+#define IDS_MalieSystem_MovieView   (IDS_Malie+13) /* 動画鑑賞 - 表示 */ 
+
+static int malie;
+int _wipe;
+int _name, _dress, _exp;
+int _sound_num, _sound_play;
+int _screen_id;
+//char _face_name[32], _face_dress[32], _face_exp[32];
+int _font_pos;
+int _font_size;
+int _font_color;
+int _text_speed;
+int _text_speed_on;
+int _text_mode;
+
+int _sound_loop;
+
+/* ------------------------------------------------------------------------- */
+/* Malie System フォルダ識別子 */
+#define MSFID_Bg    1 /* 背景       */
+#define MSFID_Event 2 /* イベント   */
+#define MSFID_Chara 3 /* キャラクタ */
+#define MSFID_Mask  4 /* マスク     */
+#define MSFID_Bgm   5 /* ＢＧＭ     */
+#define MSFID_Se    6 /* 効果音     */
+#define MSFID_Voice 7 /* 音声       */
+#define MSFID_Max   8
+
+/* ------------------------------------------------------------------------- */
+/* Malie System メッセージ */
+#define MSM_Message         100
+#define MSM_SetFolder       (MSM_Message+1) /* フォルダ設定       */
+#define MSM_SetTextMode     (MSM_Message+2) /* テキストモード設定 */
+#define MSM_LoadBG          (MSM_Message+3) /* 背景イメージ読み込み */
+#define MSM_SetTextSpeed    (MSM_Message+4) /* テキスト表示速度スピード設定 */
+#define MSM_SetFontSize     (MSM_Message+5) /* フォントサイズの設定 */
+#define MSM_Wait            (MSM_Message+6) /* ウェイト             */
+#define MSM_SetTextPosition (MSM_Message+7) /* テキスト位置の設定   */
+
+#define MSM_SetWipe         (MSM_Message+8) /* ワイプの設定 */
+#define MSM_SetFrameRate    (MSM_Message+9) /* フレームレート設定   */
+
+#define MSM_LoadMask        (MSM_Message+10) /* マスクの読み込み */
+
+#define MSM_ClearSelect     (MSM_Message+15) /* 選択のクリア */
+#define MSM_AddSelect       (MSM_Message+16) /* 選択項目追加 */
+#define MSM_BeginSelect     (MSM_Message+17) /* 選択処理開始 */
+
+#define MSM_ShowMessage     (MSM_Message+18) /* メッセージ枠の表示／非表示 */
+#define MSM_ShowWaitCursor  (MSM_Message+19) /* ウェイトカーソルの表示／非表示 */
+
+#define MSM_Exec            (MSM_Message+20) /* 起動 */
+#define MSM_Exit            (MSM_Message+21) /* 戻る */
+
+#define MSM_ClearAbsWait    (MSM_Message+24) /* 絶対時間クリア   */
+#define MSM_AbsWait         (MSM_Message+25) /* 絶対時間ウェイト */
+#define MSM_VoiceWait       (MSM_Message+26) /* 音声ウェイト */
+
+#define MSM_SystemFade      (MSM_Message+27) /* システムフェード処理 */
+#define MSM_SoundLoop       (MSM_Message+28) /* サウンドのループ制御 */
+#define MSM_GetSystemTime   (MSM_Message+29) /* 時間の取得 */
+
+#define MSM_Sound           (MSM_Message+40) /* ＢＧＭ再生 */
+#define MSM_SoundStop       (MSM_Message+41) /* ＢＧＭ停止 */
+#define MSM_Voice           (MSM_Message+42) /* 音声再生   */
+#define MSM_Se              (MSM_Message+43) /* 効果音再生 */
+
+#define MSM_Chara_Show        (MSM_Message+50) /* キャラ表示     */
+#define MSM_Chara_Hide        (MSM_Message+51) /* キャラ非表示   */
+#define MSM_Chara_Dress       (MSM_Message+52) /* キャラ服指定   */
+#define MSM_Chara_Exp         (MSM_Message+53) /* キャラ表情指定 */
+#define MSM_Chara_Update      (MSM_Message+54) /* キャラ更新     */
+#define MSM_Chara_Arrangement (MSM_Message+55) /* 配置           */
+
+#define MSM_Face_Show         (MSM_Message+56) 
+#define MSM_SetCancel         (MSM_Message+57) /* キャンセルハンドラの設定 */
+
+#define MSM_Chara_SetMoveName (MSM_Message+58)
+#define MSM_Chara_SetMovePos  (MSM_Message+59)
+#define MSM_Chara_SetMoveType (MSM_Message+60)
+#define MSM_Chara_SetMoveTime (MSM_Message+61)
+#define MSM_Chara_StartMove   (MSM_Message+62)
+#define MSM_Chara_SetPos      (MSM_Message+63)
+
+#define MSM_Name_SetImage     (MSM_Message+64) /* 名前イメージの指定 */
+
+#define MSM_RefDollerString   (MSM_Message+65)
+#define MSM_RefSharpString    (MSM_Message+66)
+#define MSM_SetDollerString   (MSM_Message+67)
+
+#define MSM_AddString         (MSM_Message+68) /* メッセージ文字列追加 */
+
+#define MSM_ChangeGame        (MSM_Message+69) /* AS */
+#define MSM_CheckGame         (MSM_Message+70) /* AS */
+
+#define MSM_Name_SetString    (MSM_Message+72) /* 名前文字列指定 */
+
+#define MSM_SetFontPosition   (MSM_Message+73) /* テキスト位置の指定 */
+#define MSM_SetFontColor      (MSM_Message+74) /* テキスト色の指定 */
+#define MSM_CGPosition        (MSM_Message+75) /* ＣＧ位置の指定   */
+#define MSM_CGScroll          (MSM_Message+76) /* ＣＧのスクロール */
+
+#define MSM_SetSoundLoop      (MSM_Message+77) /* サウンドループ設定 */
+
+#define MSM_SetSaveFileIcon   (MSM_Message+78) /* セーブファイルアイコンの設定 */
+
+#define MSM_SetImgBlk         (MSM_Message+79) /* イメージブロックの設定 */
+#define MSM_SetCJumpCmp       (MSM_Message+80) /* CJUMP 比較値の設定 */
+#define MSM_BeginAnchorJump   (MSM_Message+81) /* アンカージャンプ */
+
+#define MSM_SetSeLoop         (MSM_Message+82) /* 生野追加：SEのループ設定 */
+
+#define MSM_SetCGFilter       (MSM_Message+90) /* ＣＧフィルタ設定   */
+#define MSM_SetCharaFilter    (MSM_Message+91) /* キャラフィルタ設定 */
+
+#define MSM_PlayCG            (MSM_Message+100) /* ＣＧ再生 */
+#define MSM_WaitCG            (MSM_Message+101) /* ＣＧ再生ウェイト */
+
+#define MSM_Overlap           (MSM_Message+110) /* オーバーラップ */
+
+#define MSM_Message_Page      (MSM_Message+120) /* ポーズ */
+#define MSM_Message_Pause     (MSM_Message+121) /* ページ */
+#define MSM_Message_Clear     (MSM_Message+122) /* クリア */
+#define MSM_Message_Out       (MSM_Message+123) /* 出力 */
+#define MSM_Message_Set       (MSM_Message+124) /* 設定 */
+
+#define MSM_Tag_Begin         (MSM_Message+130) /* タグ開始 */
+#define MSM_Tag_Param         (MSM_Message+131) /* タグパラメータ */
+#define MSM_Tag_End           (MSM_Message+132) /* タグ終了 */
+
+#define MSM_Movie             (MSM_Message+140) /* 動画再生 */
+
+#define MSM_SetLabel          (MSM_Message+150) /* 既読ラベル設定 */
+
+#define MSM_ChangeMessageWindow (MSM_Message+200) /* メッセージウィンドウ変更 */
+
+#define MSM_GetConfig           (MSM_Message+300)
+
+#define MSM_Screen              (MSM_Message+350)
+
+#define MSM_End                 (MSM_Message+900) /* END命令 */
+
+#define MSM_GetObject 500
+
+#define DEFAULT_KEY ""
+
+#define Malie_SendMessage(id, code, sender) \
+	FrameLayer_SendMessage(malie, id, code, sender)
+
+#define _gethour(type) \
+	FrameLayer_SendMessage(malie, MSM_GetSystemTime, type, 0)
+
+#define _loadcg(name)         Malie_SendMessage(MSM_LoadBG     , 0   , name)
+#define _wipe_mask(mask)      Malie_SendMessage(MSM_LoadMask   , 0   , mask)
+#define _wipe_set(wipe, time) Malie_SendMessage(MSM_SetWipe    , wipe, time)
+
+/* ------------------------------------------------------------------------- */
+/* CG エフェクト */
+
+#define OL     0
+#define NONE   1 /* 仮 */
+#define CUT    2
+#define MASK   3 /* マスク */
+#define BREAK  4
+#define RETURN 5
+#define FLASH  11
+#define SHAKE  12
+#define SHADE  13
+#define WO     20
+
+/* ----------------------------------------------------------------------- */
+/* キャラ位置識別子 */
+
+#define CHARA_LO  0 /* 左外   */
+#define CHARA_L   1 /* 左     */
+#define CHARA_C   2 /* 中央   */
+#define CHARA_R   3 /* 右     */
+#define CHARA_RO  4 /* 右外   */
+#define CHARA_LBO 5 /* 左後外 */
+#define CHARA_LB  6 /* 左後   */
+#define CHARA_CB  7 /* 中央後 */
+#define CHARA_RB  8 /* 右後   */
+#define CHARA_RBO 9 /* 右後外 */
+#define CHARA_AUTO -1
+
+/* ----------------------------------------------------------------------- */
+/* MALIE_FONTPOSITION */
+
+#define MALIE_LEFT_TOP     0
+#define MALIE_LEFT_CENTER  1
+#define MALIE_LEFT_DOWN    2
+#define MALIE_CENTER_TOP   3
+#define MALIE_CENTER       4
+#define MALIE_CENTER_DOWN  5
+#define MALIE_RIGHT_TOP    6
+#define MALIE_RIGHT_CENTER 7
+#define MALIE_RIGHT_DOWN   9
+
+/* ----------------------------------------------------------------------- */
+/* TextMode */
+
+#define TM_NORMAL 0 /* 通常 */
+#define TM_SYNC   1 /* 同期 */
+#define TM_SLOW   2 /* 遅い */
+
+/* ------------------------------------------------------------------------- */
+/* MSM_GetSystemTime */
+
+#define GST_Year   0 /* 年 */
+#define GST_Month  1 /* 月 */
+#define GST_Day    2 /* 日 */
+#define GST_Hour   3 /* 時 */
+#define GST_Minute 4 /* 分 */
+#define GST_Second 5 /* 秒 */
+
+/* ----------------------------------------------------------------------- */
+/* Malie System Config */
+
+#define MSC_CHARAEFFECT 1 /* キャラクタエフェクト */
+#define MSC_CGEFFECT    2 /* ＣＧエフェクト */
+
+int PASCAL Malie_GetConfig(int type)
+{
+	return Malie_SendMessage(MSM_GetConfig, type, 0);
+}
+
+extern void MalieSystem_OpenDialog(int);
+extern void MalieSystem_PlaySystemSE(int);
+
+/* ----------------------------------------------------------------------- */
+/* _ms : Malie System 関数 */
+
+/* オーバーラップ処理 */
+#define MSOL_SYSTEM 0 /* 通常 */
+#define MSOL_CG     1 /* ＣＧ */
+#define MSOL_CHARA  2 /* キャラクタ */
+
+//void PASCAL _ms_overlap(int type)
+void PASCAL _ms_overlap()
+{
+	Malie_SendMessage(MSM_Overlap, 0, 0);
+}
+
+void PASCAL _ms_page()
+{
+	Malie_SendMessage(MSM_Message_Page, 0, 0);
+}
+
+void PASCAL _ms_pause()
+{
+	Malie_SendMessage(MSM_Message_Pause, 0, 0);
+}
+
+void PASCAL _ms_clear()
+{
+	Malie_SendMessage(MSM_Message_Clear, 0, 0);
+}
+
+void PASCAL _ms_out()
+{
+	Malie_SendMessage(MSM_Message_Out, 0, 0);
+}
+
+void PASCAL _ms_message(int offset)
+{
+	Malie_SendMessage(MSM_Message_Set, 0, offset);
+}
+
+void PASCAL MALIE_END()
+{
+	Malie_SendMessage(MSM_End, 0, 0);
+}
+
+void PASCAL MALIE_SCENE_END()
+{
+	if (s_scene) MALIE_END();
+}
+
+#ifndef _NOT_USE_
+/* CG_BG */
+void PASCAL CG_BG(int name)
+{
+	_showcursor(FALSE);
+	System_TakeScreen(0);
+	if (_wipe == NONE)
+	{
+		_wipe_mask("lrp");
+		_wipe_set(MASK, 1000);
+	}
+	else
+	{
+		_wipe_set(_wipe, 1000);
+	}
+//	_chara_clear_all();
+	_loadcg(name);
+	System_TakeScreen(1);
+	_ms_overlap();
+	System_TakeScreen(2);
+}
+#endif /* _NOT_USE_ */
+
+/* CG */
+void PASCAL CG(int name)
+{
+//	BOOL bEffect;
+
+//	bEffect = Malie_GetConfig(MSC_CGEFFECT);
+
+//	_showcursor(FALSE);
+//	if (bEffect)
+//	{
+//		System_TakeScreen(0);
+//	}
+
+	_loadcg(name);
+
+//	if (bEffect)
+//	{
+//		System_TakeScreen(1);
+//		_ms_overlap();
+//		System_TakeScreen(2);
+//	}
+
+	
+//	Malie_SendMessage(MSM_PlayCG, 0, 0);
+}
+
+/* 選択 */
+#define MALIE_CLEARSELECT()          FrameLayer_SendMessage(malie, MSM_ClearSelect, 0, 0)
+#define MALIE_ADDSELECT(n, s)        FrameLayer_SendMessage(malie, MSM_AddSelect, MAKELONG(n, 1), s)
+#define MALIE_ADDSELECT_CMP(n, b, s) FrameLayer_SendMessage(malie, MSM_AddSelect, MAKELONG(n, b), s)
+#define MALIE_BEGINSELECT()          FrameLayer_SendMessage(malie, MSM_BeginSelect, 0, 0); result = qj_flag(System_GetResult())
+#define MALIE_JUMPSELECT(n, l)       if (result == n) goto l
+#define _beginanchorjump()      FrameLayer_SendMessage(malie, MSM_BeginAnchorJump, 0, 0)
+
+/* ----------------------------------------------------------------------- */
+/* &命令 */
+
+/*  */
+void PASCAL MALIE_LABLE(int label)
+{
+	out_debug("■ [MALIE_LABEL] : %s\n", label);
+	Malie_SendMessage(MSM_SetLabel, 0, label);
+}
+
+/* &wait */
+void PASCAL MALIE_WAIT(int time)
+{
+	Malie_SendMessage(MSM_Wait, time, 0);
+}
+
+/* &sound_ctrl */
+void PASCAL MALIE_SOUND_CTRL(int bLoop)
+{
+	Malie_SendMessage(MSM_SetSoundLoop, bLoop, 0);
+}
+
+/* &textmode */
+void PASCAL MALIE_TEXTMODE(int mode)
+{
+	Malie_SendMessage(MSM_SetTextMode, mode, 0);
+}
+
+/* &textspeed */
+void PASCAL MALIE_TEXTSPEED(int b, int speed)
+{
+	Malie_SendMessage(MSM_SetTextSpeed, b, speed);
+}
+
+/* &fontcolor */
+void PASCAL MALIE_FONTCOLOR(int color)
+{
+	Malie_SendMessage(MSM_SetFontColor, color, 0);
+}
+
+/* &fontsize */
+void PASCAL MALIE_FONTSIZE(int size)
+{
+	Malie_SendMessage(MSM_SetFontSize, size, 0);
+}
+
+/* &fontmode */
+void PASCAL MALIE_FONTPOSITION(int pos)
+{
+	Malie_SendMessage(MSM_SetFontPosition, pos, 0);
+}
+
+/* &cg */
+void PASCAL MALIE_CG(int name, int wipe, int time)
+{
+	_wipe_set(wipe, time);
+	CG(name);
+}
+
+/* &cg_h */
+void PASCAL MALIE_CG_H(int name, int opt1, int opt2)
+{
+	Malie_SendMessage(MSM_CGPosition, opt1, 0);
+	MALIE_CG(name, OL, 1000);
+	Malie_SendMessage(MSM_CGScroll  , opt2, 3000);
+}
+
+/* &change */
+void PASCAL MALIE_CHANGE(int key)
+{
+	Malie_SendMessage(MSM_ChangeGame, 0, key);
+}
+
+/* &cgfilter */
+void PASCAL MALIE_CGFILTER(int f)
+{
+	Malie_SendMessage(MSM_SetCGFilter, 0, f);
+}
+
+/* &charfilter */
+void PASCAL MALIE_CHARFILTER(int f)
+{
+	Malie_SendMessage(MSM_SetCharaFilter, 0, f);
+}
+
+/* &cgwait */
+void PASCAL MALIE_CGWAIT(int time)
+{
+	Malie_SendMessage(MSM_WaitCG, 0, time);
+}
+
+/* &sound */
+void PASCAL MALIE_SOUND(int num, int fade)
+{
+	Malie_SendMessage(MSM_Sound, num , fade);
+}
+
+/* &soundstop */
+void PASCAL MALIE_SOUNDSTOP(int time)
+{
+	Malie_SendMessage(MSM_SoundStop, 0, time);
+}
+
+/* &movie */
+void PASCAL MALIE_MOVIE(int name, int type)
+{
+	Malie_SendMessage(MSM_Movie, type, name);
+}
+
+/* SE操作 */
+#define seloopon	Malie_SendMessage(MSM_SetSeLoop, 1, 0)
+#define seloopoff	Malie_SendMessage(MSM_SetSeLoop, 0, 0)
+
+#define _se(n) FrameLayer_SendMessage(malie, MSM_Se, n, 0)
+
+/* &se num */
+void PASCAL MALIE_SE(int num)
+{
+	seloopoff;
+	_se(num);
+}
+
+/* &seloop num */
+void PASCAL MALIE_SELOOP(int num)
+{
+	seloopon;
+	_se(num);
+}
+
+/* &sestop */
+void PASCAL MALIE_SESTOP()
+{
+	seloopoff;
+}
+
+/* <imgblk> */
+void PASCAL MALIE_IMGBLK_BEGIN()
+{
+//	BOOL bEffect;
+
+//	bEffect = Malie_GetConfig(MSC_CHARAEFFECT);
+
+//	if (bEffect)
+//	{
+//		System_TakeScreen(0);
+//	}
+	Malie_SendMessage(MSM_SetImgBlk, TRUE , 0);
+}
+
+/* </imgblk> */
+void PASCAL MALIE_IMGBLK_END()
+{
+//	BOOL bEffect;
+
+//	bEffect = Malie_GetConfig(MSC_CHARAEFFECT);
+
+	Malie_SendMessage(MSM_SetImgBlk, FALSE, 0);
+
+//	if (bEffect)
+//	{
+//		System_TakeScreen(1);
+//		_ms_overlap();
+//		System_TakeScreen(2);
+//	}
+}
+
+void PASCAL MALIE_CJUMP_CMP(int id, int cmp)
+{
+	Malie_SendMessage(MSM_SetCJumpCmp, id, cmp);
+}
+
+void PASCAL MALIE_NAME(int name)
+{
+	Malie_SendMessage(MSM_Name_SetString, 0, name);
+}
+
+void PASCAL MALIE_NAME_NUM(int num)
+{
+	Malie_SendMessage(MSM_Name_SetString, num, NULL);
+}
+
+/* &char */
+void PASCAL MALIE_CHAR(int name, int dress, int exp, int pos, int time)
+{
+	BOOL bEffect;
+
+	bEffect = Malie_GetConfig(MSC_CHARAEFFECT);
+
+	_showcursor(FALSE);
+	_wipe_set(OL, time);
+	if (bEffect)
+	{
+//		System_TakeScreen(0);
+	}
+	Malie_SendMessage(MSM_Chara_Dress      , name, dress);
+	Malie_SendMessage(MSM_Chara_Exp        , name, exp  );
+	if (pos != CHARA_AUTO)
+	{
+		Malie_SendMessage(MSM_Chara_SetPos     , name, pos  );
+	}
+	Malie_SendMessage(MSM_Chara_Show       , name, NULL  );
+	Malie_SendMessage(MSM_Chara_Update     , name, NULL  );
+//	layer = System_GetScreen(IDS_Adv); FrameLayer_SendMessage(layer, 1007, FALSE, 0);
+
+	if (bEffect)
+	{
+//		System_TakeScreen(1);
+//		_ms_overlap();
+//		System_TakeScreen(2);
+	}
+	
+	_end;
+}
+
+/* &charmove */
+void PASCAL MALIE_CHARMOVE(int name, int pos, int type, int time)
+{
+	Malie_SendMessage(MSM_Chara_SetMoveName, name, 0);
+	Malie_SendMessage(MSM_Chara_SetMovePos , pos , 0);
+	Malie_SendMessage(MSM_Chara_SetMoveType, type, 0);
+	Malie_SendMessage(MSM_Chara_SetMoveTime, time, 0);
+	Malie_SendMessage(MSM_Chara_StartMove  , 0   , 0);
+}
+
+/* layer タグ */
+void PASCAL MALIE_TAG_BEGIN(int key)
+{
+	Malie_SendMessage(MSM_Tag_Begin, key, 0);
+}
+
+void PASCAL MALIE_TAG_PARAM(int key, int param)
+{
+	Malie_SendMessage(MSM_Tag_Param, key, param);
+}
+
+void PASCAL MALIE_TAG_END()
+{
+	Malie_SendMessage(MSM_Tag_End, 0, 0);
+}
+
+#define _se_name(name) FrameLayer_SendMessage(malie, MSM_Se, 0, name)
+/*  */
+#define _setdollerstring(n, s) FrameLayer_SendMessage(malie, MSM_SetDollerString, n, s)
+//#define _wait(n)   WAIT(300*(n))
+#define _wait(n)   MALIE_WAIT(n)
+#define _voice(name)          FrameLayer_SendMessage(malie, MSM_Voice      , 0   , name)
+#define _mask(name)           FrameLayer_SendMessage(malie, MSM_LoadMask   , 0   , name)
+#define _sound_fi(num)        _sound_num = num; _sound_play = TRUE; FrameLayer_SendMessage(malie, MSM_Sound      , num , 2000)
+#define _showcursor(show)     FrameLayer_SendMessage(malie, MSM_ShowWaitCursor, 0, show)
+#define _voicewait()          FrameLayer_SendMessage(malie, MSM_VoiceWait, 0, 0)
+#define _soundloop(b)         FrameLayer_SendMessage(malie, MSM_SoundLoop, b, 0)
+
+int _timer_count;
+#define _timer_clear          FrameLayer_SendMessage(malie, MSM_ClearAbsWait, 0, 0); _timer_count = 0
+#define _timer_wait(time)     FrameLayer_SendMessage(malie, MSM_AbsWait     , time, 0); _timer_count = time
+#define _timer_wait2(time)    _timer_wait(_timer_count + time)
+
+#define _changescreen(id) _screen_id = id; System_ChangeScreen(id)
+
+#define MALIE_SETSAVEICON(icon) FrameLayer_SendMessage(malie, MSM_SetSaveFileIcon, icon, 0)
+
+#define _wipe_time(time) 
+#define _chara_pos(pos)  
+#define _chara_clear_pos(pos) 
+#define _pause           _ms_pause()
+#define _clear           _ms_clear()
+
+#define _exception(name, label) FrameLayer_SendMessage(malie, MSM_SetCancel, name, label)
+#define _title_goto(lable)     _exception("title", lable)
+#define _cancel_goto(label)    _exception("cancel", label)
+#define _canceljump(label)     _exception("cancel", label)
+
+void PASCAL MALIE_EFFECT(int time)
+{
+	_showcursor(FALSE);
+	System_TakeScreen(0);
+	_wipe_set(20, time);
+	System_TakeScreen(1);
+	_ms_overlap();
+	System_TakeScreen(2);
+}
+
+void PASCAL _flash()
+{
+	_showcursor(FALSE);
+	System_TakeScreen(0);
+	_wipe_set(FLASH, 250);
+	System_TakeScreen(1);
+	_ms_overlap();
+	System_TakeScreen(2);
+}
+
+void PASCAL _shake()
+{
+	_showcursor(FALSE);
+	System_TakeScreen(0);
+	_wipe_set(SHAKE, 250);
+	System_TakeScreen(1);
+	_ms_overlap();
+	System_TakeScreen(2);
+}
+
+void PASCAL _break()
+{
+	_showcursor(FALSE);
+	System_TakeScreen(0);
+	_loadcg("black");
+	System_TakeScreen(1);
+	_wipe_set(BREAK, 2000);
+	_ms_overlap();
+	System_TakeScreen(2);
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* &shadefo */
+#define MALIE_SHADEFO() MALIE_CG("black", SHADE, 1000)
+#define _noize_fo() MALIE_CG("black", 21, 1000)
+#define _whirlpool_fo() MALIE_CG("black", 22, 1000)
+
+#ifndef _NOT_USE_
+/* ----------------------------------------------------------------------- */
+/* 立ちキャラ表示 */
+void PASCAL CHARA_SHOW(int name, int exp)
+{
+	_showcursor(FALSE);
+	_wipe_set(OL, 300);
+	System_TakeScreen(0);
+	FrameLayer_SendMessage(malie, MSM_Chara_Show       , _name, NULL  );
+	FrameLayer_SendMessage(malie, MSM_Chara_Exp        , _name, _exp  );
+	FrameLayer_SendMessage(malie, MSM_Chara_Update     , _name, NULL  );
+	FrameLayer_SendMessage(malie, MSM_Chara_Arrangement, NULL , NULL  );
+//	layer = System_GetScreen(IDS_Adv); FrameLayer_SendMessage(layer, 1007, FALSE, 0);
+	System_TakeScreen(1);
+	_ms_overlap();
+	System_TakeScreen(2);
+}
+
+void PASCAL CHARA_SHOW_DRESS(int name, int exp, int dress)
+{
+	_showcursor(FALSE);
+	_wipe_set(OL, 300);
+	System_TakeScreen(0);
+	FrameLayer_SendMessage(malie, MSM_Chara_Show       , name, NULL );
+	FrameLayer_SendMessage(malie, MSM_Chara_Dress      , name, dress);
+	FrameLayer_SendMessage(malie, MSM_Chara_Exp        , name, exp  );
+	FrameLayer_SendMessage(malie, MSM_Chara_Update     , name, NULL );
+	FrameLayer_SendMessage(malie, MSM_Chara_Arrangement, NULL, NULL );
+//	layer = System_GetScreen(IDS_Adv); FrameLayer_SendMessage(layer, 1007, FALSE, 0);
+	System_TakeScreen(1);
+	_ms_overlap();
+	System_TakeScreen(2);
+}
+#endif /* _NOT_USE_ */
+
+void PASCAL MALIE_CHARCLEAR(int name, int time)
+{
+//	BOOL bEffect;
+
+//	bEffect = Malie_GetConfig(MSC_CHARAEFFECT);
+
+	_showcursor(FALSE);
+
+//	if (bEffect)
+//	{
+//		_wipe_set(OL, 500);
+//		System_TakeScreen(0);
+//	}
+
+	FrameLayer_SendMessage(malie, MSM_Chara_Hide       , name, NULL );
+	FrameLayer_SendMessage(malie, MSM_Chara_Update     , name, NULL  );
+//	FrameLayer_SendMessage(malie, MSM_Chara_Arrangement, NULL, NULL );
+//	layer = System_GetScreen(IDS_Adv); FrameLayer_SendMessage(layer, 1007, FALSE, 0);
+
+//	if (bEffect)
+//	{
+//		System_TakeScreen(1);
+//		_ms_overlap();
+//		System_TakeScreen(2);
+//	}
+}
+
+/* 顔表示 */
+void PASCAL FACE_SHOW(int name, int exp)
+{
+	FrameLayer_SendMessage(malie, MSM_Chara_Exp  , name, exp );
+	FrameLayer_SendMessage(malie, MSM_Face_Show  , name, NULL);
+}
+
+void PASCAL FACE_SHOW_DRESS(int name, int exp, int dress)
+{
+	FrameLayer_SendMessage(malie, MSM_Chara_Dress, name, dress);
+	FrameLayer_SendMessage(malie, MSM_Chara_Exp  , name, exp  );
+	FrameLayer_SendMessage(malie, MSM_Face_Show  , name, NULL );
+}
+
+#define _chara_dress_exp(name, dress, exp) _name = name; _dress = dress; _exp = exp; _call(CHARA_SHOW_DRESS)
+#define _chara_exp(name, exp) _name = name; _exp = exp; _call(CHARA_SHOW)
+
+#define _face_dress_exp(name,dress,exp) _name = name; _dress = dress; _exp = exp; _call(FACE_SHOW_DRESS)
+#define _face_exp(name,exp) _name = name; _exp = exp; _call(FACE_SHOW)
+
+/* 立ちキャラを隠す */
+#define _chara_clear CHARA_HIDE
+
+#define _chara_clear_all() _chara_clear(NULL)
+
+int _pos;
+int _type_;
+int _time_;
+
+/* 名前イメージの指定 */
+#define _name_image(name) \
+	FrameLayer_SendMessage(malie, MSM_Name_SetImage, 0, name)
+
+#define _name_string(name) \
+	FrameLayer_SendMessage(malie, MSM_Name_SetString, 0, name)
+
+/* 特殊文字出力（ハート） */
+#define _exchar(n) FrameLayer_SendMessage(malie, MSM_AddString, 0, "\xFF\x01")
+
+/* ----------------------------------------------------------------------- */
+/* _change_game用 */
+int _as_key[2];
+int _bgm_key[2];
+int _img_key[2];
+
+
+#define _timeclear() FrameLayer_SendMessage(app, SAM_Time_Show, "", FALSE)
+
+#define _mw_change(n) Malie_SendMessage(MSM_ChangeMessageWindow, 0, n)
+
+
+#include "obj.txt" /* オブジェクト処理 */
+#include "effectcommand.txt" /* エフェクトコマンド追加 */
+
+#endif /* _MALIESYSTEM_TXT_ */
+
+/* eof */

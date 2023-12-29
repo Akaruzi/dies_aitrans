@@ -1,0 +1,155 @@
+/* as.txt */
+/* */
+
+void maliescenario();
+
+#define _timeclear() FrameLayer_SendMessage(app, SAM_Time_Show, "", FALSE)
+
+#define _change_game(key) strcpy(_as_key, key); FrameLayer_SendMessage(malie, MSM_ChangeGame, 0, key)
+#define _cg(name, wipe) _name = name; _wipe = wipe; _call(CG);
+#define _cg_bg(name, wipe) strcpy(_img_key, _as_key); _name = name; _wipe = wipe; _call(CG_BG);
+#define _sound(num) strcpy(_bgm_key, _as_key); _sound_num = num; _sound_play = TRUE; FrameLayer_SendMessage(malie, MSM_Sound      , num , 0   )
+
+#include "_malievalue.txt"
+
+#include "as_h.txt"
+
+// Ç†ÇÈÇ∑Ç‹ÇÆÇ»ÅIÉAÉCÉLÉÉÉbÉ`
+#define _eyecatch(type, voice) \
+	tag("<cg src='black' time='1s'>"); \
+	tag("<se src='999'>"); \
+	tag("<cg src='%s' time='1s'>", type); \
+	tag("<wait time='1'>"); \
+	tag("<voice src='%s'>", voice); \
+	tag("<wait time='3s'>"); \
+	tag("<cg src='black' time='1s'>")
+
+/* ----------------------------------------------------------------------- */
+/*  */
+void PASCAL run()
+{
+	out_debug("");
+	
+	/* */
+	app   = System_GetScreen(IDS_Sultan);
+	adv   = System_GetScreen(IDS_Adv   );
+	malie = System_GetScreen(IDS_Malie );
+}
+
+int PASCAL system_onLoad()
+{
+	run();
+
+	return 0;
+}
+
+/* ----------------------------------------------------------------------- */
+/* */
+system:
+{
+@load: /* Ì¸…B */
+
+	run();
+	
+	_end;
+
+@save: /* ª¸÷B */
+	_end;
+
+@run: /*  */
+	
+	/*  */
+	run();
+	
+	_end;
+	
+@stop:
+	_end;
+
+@create: /*  */
+	_end;
+
+@destroy: /*  */
+	_end;
+}
+
+int _return_screen;
+
+/* ----------------------------------------------------------------------- */
+/* */
+void PASCAL LUN_MAP()
+{
+	System_TakeScreen(0);
+	_changescreen(IDS_Sultan_MapSelect);
+Malie_SendMessage(MSM_Screen, 0, ".\\data\\screen\\map\\map.svg");
+	System_TakeScreen(1);
+	MALIE_SOUNDSTOP(1000);
+	_wipe_set(SHADE, 1000);
+	_ms_overlap();
+	System_TakeScreen(2);
+
+	System_Await();
+
+	System_TakeScreen(0);
+	_changescreen(IDS_Adv);
+	System_TakeScreen(1);
+	MALIE_SOUNDSTOP(1000);
+	_wipe_set(SHADE, 1000);
+	_ms_overlap();
+	System_TakeScreen(2);
+}
+
+/* ----------------------------------------------------------------------- */
+/*  */
+
+main:
+{
+//	tag("<layercamera position='512 300'>");
+	
+	s_scene = 0;
+	
+	/* */
+	run();
+	
+	/* */
+	System_TakeScreen(0);
+	_changescreen(IDS_Adv);
+	_loadcg("black");
+	System_TakeScreen(1);
+	MALIE_SOUNDSTOP(1000);
+	_wipe_set(SHADE, 1000);
+	_ms_overlap();
+	System_TakeScreen(2);
+	
+	_title_goto("@exit");
+	if (System_GetResult())
+	{
+		goto @exit;
+	}
+
+	MALIE_SETSAVEICON(2);
+	
+	/* */
+	maliescenario();
+	
+@exit:
+	_title_goto(NULL);
+	MALIE_SOUNDSTOP(2000);
+	MALIE_SESTOP();
+	MALIE_CG("black", OL, 1000);
+	_mw_change("");
+	
+	/*  */
+	FrameLayer_SendMessage(malie, MSM_Exit, _return_screen, 0);
+	System_Await();
+}
+
+/* ----------------------------------------------------------------------- */
+/* */
+void maliescenario()
+{
+	_ms_clear();
+#include "_maliescenario.txt"
+}
+
+/* eof */
