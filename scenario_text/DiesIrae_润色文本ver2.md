@@ -1,0 +1,380 @@
+
+
+圣枪十三骑士团顺位排序（顺位只跟入团时间顺序有关）
+
+角色介绍具体参考 网站（<https://miko.org/~uraki/kuon/furu/explain/meisi/occult/dies_irae/dies_irae.htm>）
+Charakter => ※ 聖 槍 十 三 騎 士 團 ※
+
+--- 
+
+## 1. Reinhard Tristan Eugen Heydrich = Mephisto Pheles (Reinhard)
+
+莱茵哈特·海德里希 （原nazi盖世太保首领）
+
+被称为黃金之獸（黄金）、黑太子、避忌之光、破壞之君
+
+### 吟唱
+
+#### 形成
+
+1.1 
+
+ori: [Yetzirah](形成)――[Vere filius Dei erat iste](ここに神の子 顕現せり)[Longinuslanze Testament](聖約・運命の神槍)
+
+gpt3.5: [Yetzirah](形成)——[Vere filius Dei erat iste](这里是神之子 显现)[Longinuslanze Testament](圣约·命运之神枪)
+
+example: 形成(Yetzirah)―上帝之子，显现於此(Vere filius Dei erat iste)。圣约・命运之神枪(Longinuslanze Testament)。
+
+#### 创造
+
+1.2
+ori: [Dieser Mann wohnte in den Gruften, und niemand konnte ihm keine mehr,][その男は墓に住み あらゆる者も あらゆる鎖も][c](nicht sogar mit einer Kette, binden.)[あらゆる総てをもってしても繋ぎ止めることが出来ない](Er ris die Ketten auseinander und brach die Eisen auf seinen Fusen.)[彼は縛鎖を千切り 枷を壊し 狂い泣き叫ぶ墓の主](c)[Niemand war stark genug, um ihn zu unterwerfen.](この世のありとあらゆるモノ総て 彼を抑える力を持たない)[Dann fragte ihn Jesus. Was ist Ihr Name?](ゆえ 神は問われた 貴様は何者か)[Mein Name ist Legion](我が名はレギオン)[Briah](創造)[Gladsheimr](至高天)――[Gullinkambi fünfte Weltall](黄金冠す第五宇宙)
+
+gpt3.5: [Dieser Mann wohnte in den Gruften, und niemand konnte ihm keine mehr,][那个男人住在坟墓里 所有的人 所有的锁链][c](nicht sogar mit einer Kette, binden.)[即使拥有一切也无法阻止连接](Er ris die Ketten auseinander und brach die Eisen auf seinen Fusen.)[彼は縛鎖を千切り 枷を壊し 狂い泣き叫ぶ墓の主](c)[Niemand war stark genug, um ihn zu unterwerfen.](この世のありとあらゆるモノ総て 彼を抑える力を持たない)[Dann fragte ihn Jesus. Was ist Ihr Name?](ゆえ 神被质问道 你到底是谁)[Mein Name ist Legion](我名军团)[Briah](創造)[Gladsheimr](至高之境)――[Gullinkambi fünfte Weltall](第五宇宙被黄金所覆盖)
+
+example: 
+其男生息墓中，种种之人，种种之锁(Dieser Mann wohnte in den Gruften, und niemand konnte ihm keine mehr)，种种之物，尽皆无以系止(nicht sogar mit einer Katte, binden)。
+彼者，碎裂缚锁，毁坏枷梏，狂泣叫唤之死墓之主(Er ris die Katten auseinander und brach die Eisen auf seinen Fusen)。
+悠悠世中，森罗万物，咸无抑制彼人之力(Niemand war stark genug, um ihn zu unterwerfen)。以故，天神探问：汝者何人(Dann fragte ihn Jesus. Was ist Ihr Name)？
+愚问也。蒙昧无知。汝既不知，则在此答矣(Es ist eine dumme Frage. Ich antworte)。 吾名军团(Mein Name ist Legion)――
+创造(Briah)――至高天(Gladsheimr)・冠戴黄金之第五宇宙(Gullinkambi fünfte Weltall)。
+
+
+
+1.3
+ori:[Dies irae, dies illa, solvet saeclum in favilla.][怒りの日 終末の時 天地万物は灰燼と化し](c)　[Teste David cum Sybilla.][ダビデとシビラの予言のごとくに砕け散る](Quantus tremor est futurus, Quando judex est venturus,)[たとえどれほどの戦慄が待ち受けようとも 審判者が来たり](c)　[Cuncta stricte discussurus.][厳しく糾され 一つ余さず燃え去り消える](Tuba, mirum spargens sonum Per sepulcra regionum,)[我が総軍に響き渡れ 妙なる調べ 開戦の号砲よ](c)　[Coget omnes ante thronum.](皆すべからく 玉座の下に集うべし)」[s][z][n][n]　集え、集え、満ちて溢れよ[戦鬼の海](ヴェルトール)。[z][n][n]{v_ra2285}「[Lacrimosa dies illa, Qua resurget ex favilla][彼の日 涙と罪の裁きを 卿ら 灰より蘇らん](c)　[Judicandus homo reus Huic ergo parce, Deus.](されば天主よ その時彼らを許したまえ)[Atziluth](流出)――[Du-sollst](混沌より溢れよ)――」[s][z][n][n]{v_me2235}　役者が良い。至高と信ずる。[s][z][n][n]{v_rn1023}「[Res novae](新世界へ)[Dies irae](怒りの日)
+
+gpt3.5:[Dies irae, dies illa, solvet saeclum in favilla.][愤怒之日 终结之时 天地万物化为灰烬](c)　[Teste David cum Sybilla.][如同大卫和西比拉的预言般破碎散落。](Quantus tremor est futurus, Quando judex est venturus,)[无论遭遇多少惊悚之事 审判者降临时](c)　[Cuncta stricte discussurus.][严厉地指责 一切都将被烧毁消逝殆尽](Tuba, mirum spargens sonum Per sepulcra regionum,)[响彻我的军队。 奇妙的旋律。 开战的号角。](c)　[Coget omnes ante thronum.](所有人都应当。 聚集在王座下。)」[s][z][n][n]　聚集，聚集，成为战魔之海。[z][n][n]{v_ra2285}「[Lacrimosa dies illa, Qua resurget ex favilla][那一天。 泪水和罪孽的审判。 卿ら 不让灰烬重生。](c)　[Judicandus homo reus Huic ergo parce, Deus.](愿上天保佑。 那时，请原谅他们吧)[Atziluth](流出)――[Du-sollst](从混沌中溢出吧)――」[s][z][n][n]{v_me2235}　演员很出色。我相信这是至高的。[s][z][n][n]{v_rn1023}「[Res novae](通往新世界)[Dies irae](愤怒之日)
+
+example:
+震怒之日，终末之时(Dies irae, dies illa,)，天地万物，化作灰烬(solvet saeclum in favilla.)。全如大卫与希维拉之预言(Teste David cum Sybilla.)。
+世间人等，纵然战栗待备(Quantus tremor est futurus,)，审判之者，必将至来(Quando judex est venturus,)，一切生息，咸将严罚纠检欤(Cuncta stricte discussurus.)。
+美妙曲调，响彻吾麾下总军。此乃开战之号炮(Tube, mirum spargens sonum Per sepulcra regionum)。麾下兵众，咸应聚首此玉座之下(Coget omnes ante thronum.)。
+泪与罪孽，将於彼日，接受制裁。众卿，当自死灰之中复苏(Lacrimosa dies illa, Qua resurget ex favilla)。
+如此而然，天主，必在其时，赦免彼等(Judicandus homo reus Huic ergo parce, Deus)。 慈悲深邃者，今日应许彼等永恒之安息。阿门(Pie Jesu Domine, dona eis requiem. Amen)。
+流出(Atziluth)――溢自混沌(Du-sollst)・震怒之日(Dies irae)。
+
+## 2. Tubal Cain
+
+Tubal 该隐。圣枪十三骑士团黑圆桌第二位・Tubal 该隐。活死人，遭圣遗物吞噬者之末路。毫无意识之杀人机械。除坐拥最强实力之五名干部外，为现存八名骑士团中武力最强者。无法单独行动，作为 Babylon（圣枪骑士团第11位） 之武器，而一犹为其所使役之道具。身躯之中，毫无堪称为灵魂的残渣，持续活动至肉体全坏为止。圣遗物为圣枪隆基努斯之模造品“黑圆桌之圣枪”。
+
+neta自圣经中的铁匠Tubal-Kain
+日本人，吟唱也为日语
+
+### 吟唱(暂时不用润色，后续会补充)
+
+2.1 汝命，尔人(オマヘ、贵样)，既与吾等血脉，结亲缘之契矣(モウ我ラノ血ト契ッタ)。资格备矣。资格备矣(资格アリ。资格アリ)。负抱千座置户，流离去兮(千座ノ置座ヲ抱イテ速佐须良匕)。
+既为伴侣，则资格备矣(伴侣ナラバ，资格アリ)。受继伪枪，輙汝亦为(伪枪ヲ受ケレバ、贵样モマタ)……
+
+#### 创造
+2.2 
+畔放(阿波那知)、沟埋(美曾宇美)、樋放(斐波那知)、频播(志伎麻伎)、串刺(久志佐志)、生剥、逆剥、屎户，许多(许许太久)罪と(止)宣别而，
+生肤断、死肤断、白人、胡久美者，国津罪，己母犯罪、己子犯罪、
+母与子犯罪、子与母犯罪、畜犯罪、昆虫灾、高津神灾、高津鸟灾、畜仆、蛊物为罪，
+种种罪事者，天津罪、国津罪，几许(许许太久)罪出，此出者。
+创造(Briah)——如此流离失而(此久左须良比失比氏)・所谓罪之罪者不在(罪登云布罪波在良自)。
+
+何以，唯吾遭此不幸(何故俺ダケガ、カウナ目二逢フ)。秽之、朽之(秽レロ、朽チロ)，不可恕之，不令逃兮(许セヌ、逃ガセヌ)。见咒流离，直至末代(末代マデ呪ハレ流离へ)。
+
+
+## 3. Christof Lohengrin　(Valeria Trifa)
+
+Valeria Trifa。聖槍十三騎士團黑圓桌第三位・運神者。聖餐杯。黃化。1910 年 6 月 4 日生。在首領、幹部消蹤匿跡之現騎士團中具有最高指揮權之司令官，亦是司掌騎士團所欲執行之儀式的聖職者。猶如從軍聖戦之祭司般的存在，並非慈愛的信徒而是狂信的使徒。表面上是永駐和煦笑容的神父，其內心則反覆推敲冷酷非道的策謀，指揮、煽動團員。聖遺物為 Reinhard Heydrich 玉體「黃金聖餐杯」
+
+neta自支持nazi的神父Valerian Trifa
+
+### 吟唱
+
+#### 创造
+
+ori:[Mein lieber Schwan.](親愛なる白鳥よ)　[dies Horn, dies Schwert, den Ring sollst du ihm geben.](这角笛和这把剑 请将戒指给予他)[Dies Horn soll in Gefahr ihm Hilfe schenken,](この角笛は危険に際して救いをもたらし)　[in wildem Kampf dies Schwert ihm Sieg verleiht](この剣は恐怖の修羅場で勝利を与える物なれど)」　何が起き、何をされようとしているのか理解できない。殺す気なのか、この神父は――「[doch bei dem Ringe soll er mein gedenken,](この指輪はかつておまえを恥辱と苦しみから救い出した)」「[Briah](創造)――」「[der einst auch dich aus Schmach und Not befreit!](この私のことをゴットフリートが偲ぶよすがとなればいい)」「[Vanaheimr](神世界へ)――」「[Goldene Schwan Lohengrin](翔けよ黄金化する白鳥の騎士)」
+
+gpt3.5:「[Mein lieber Schwan.](亲爱的白鸟啊)　[dies Horn, dies Schwert, den Ring sollst du ihm geben.](这角笛和这把剑 请将戒指给予他)」「[Dies Horn soll in Gefahr ihm Hilfe schenken,](这角笛在危险时刻带来救赎)　[in wildem Kampf dies Schwert ihm Sieg verleiht](这剑在恐怖修罗场中赐予胜利，但)」　不明白发生了什么，他到底想做什么。这位神父是想要杀人吗——「[doch bei dem Ringe soll er mein gedenken,](这戒指曾经将你从耻辱和痛苦中拯救出来)」「[der einst auch dich aus Schmach und Not befreit!](要是我能成为戈特弗里德回忆起的遗迹就好了)」「[Briah](創造)――」「[Vanaheimr](神界)――」「[Goldene Schwan Lohengrin](飞向黄金化的白鸟骑士)」
+
+example:
+亲爱之白鸟矣(Mein lieber Schwan)。请将此角笛、利剑、戒指赐与彼人(dies Horn,dies Schwert, den Ring sollst du ihm geben.)。
+此角笛者，当危险之际，予彼救赎(Dies Horn soll in Gefahr ihm Hilfe schenken,)。此利剑者，乃恐惧争斗之间，与人胜利之物(in wildem Kampf dies Schwert ihm Sieg verleiht.)。
+此戒指者，将汝等由过去之耻辱与苦痛中救出(doch bei dem Ringe soll er mein gedenken,)。汝等视我，当犹偲 Gottfried 般(der einst auch dich aus Schmach und Not befreit!)！
+创造(Briah)――神世界(Vanaheimr)・翔矣，幻化黄金之白鸟骑士(Golden Schwan Lohengrin)。
+
+## 4. Kaziklu Bey　(Wilhelm Ehrenburg)
+
+串刺公(Kaziklu Bey)
+
+Wilhelm Ehrenburg。聖槍十三騎士團黑圓桌第四位・串刺公。1917 年 7 月 10 日，生於德國漢諾威。白貌鬼。親衛隊中尉。為其父姊近親相姦而誕生之畜生白子。其具有雖然忌諱日光等各種光線，感官卻於晚間增幅的擬似吸血鬼體質。本人亦以此為自身之特點，由稱號可察知其對吸血鬼屬性之愛好。
+　1927 年 9 月，燒殺父親，姦殺其亦母亦姊之 Helga Ehrenburg。雖被送往少年感化院，卻於同年 12 月越獄。其後一再犯下強盜、強姦、放火、殺人等罪，但於 1941 年被編入惡名昭彰的罪犯部隊・第 36 SS 武裝擲彈兵師團 Dirlewanger。翌年 2 月，於游擊隊掃討作戰中立有戰功，因獲免罪。1944 年，在華沙起事戰中，虐殺敵我，因而遭到肅清。然而其後仍在世界各地的戰場上為人所目擊，成為軍隊間的傳說。聖遺物為以串刺公之血液為素體之「闇之贈禮」。
+
+### 吟唱
+
+#### 创造
+
+ori:「[Wo war ich schon einmal und war so selig](かつて何処かで そしてこれほど幸福だったことがあるだろうか)」「[Wie du warst! Wie du bist! Das weiß niemand, das ahnt keiner!](あなたは素晴らしい 掛け値なしに素晴らしい しかしそれは誰も知らず また誰も気付かない)」「[Ich war ein Bub', da hab' ich die noch nicht gekannt.](幼い私は まだあなたを知らなかった) 　[Wer bin denn ich? Wie komm'denn ich zu ihr?](いったい私は誰なのだろう いったいどうして) 　[Wie kommt denn sie zu mir?](私はあなたの許に来たのだろう) 　[Wär' ich kein Mann, die Sinne möchten mir vergeh'n.](もし私が騎士にあるまじき者ならば、このまま死んでしまいたい) 　[Das ist ein seliger Augenblick,](何よりも幸福なこの瞬間)――　[den will ich nie vergessen bis an meinen Tod.](私は死しても 決して忘れはしないだろうから)」「――[Sophie, Welken Sie](ゆえに恋人よ 枯れ落ちろ)」「[Show a Corpse](死骸を晒せ)」「[Es ist was kommen und ist was g'schehn, Ich möcht Sie fragen](何かが訪れ 何かが起こった 私はあなたに問いを投げたい)」「[Darf's denn sein? Ich möcht' sie fragen: warum zittert was in mir?](本当にこれでよいのか 私は何か過ちを犯していないか) 　[Sophie, und seh' nur dich und spür' nur dich.](恋人よ 私はあなただけを見 あなただけを感じよう) 　[Sophie, und weiß von nichts als nur: dich hab' ich lieb](私の愛で朽ちるあなたを 私だけが知っているから)」「――[Sophie, Welken Sie](ゆえに恋人よ 枯れ落ちろ)」「[Briah](創造)――」「[Der Rosenkavalier Schwarzwald](死森の薔薇騎士)」
+
+gpt3.5:「[Wo war ich schon einmal und war so selig](曾经在某处 还有比这更幸福的时刻吗)」「[Wie du warst! Wie du bist! Das weiß niemand, das ahnt keiner!](你真了不起 绝对了不起 然而却没有人知晓 也没有人注意到)」「[Ich war ein Bub', da hab' ich die noch nicht gekannt.](那时的我还是个孩子 对你一无所知) 　[Wer bin denn ich? Wie komm'denn ich zu ihr?](我究竟是谁呢 我到底为什么) 　[Wie kommt denn sie zu mir?](会来到你身边呢) 　[Wär' ich kein Mann, die Sinne möchten mir vergeh'n.](如果我作为骑士不应该存在，那么我宁愿就这样死去吧) 　[Das ist ein seliger Augenblick,](比任何时候都要幸福的瞬间)――　[den will ich nie vergessen bis an meinen Tod.](即使我死去了 也绝不会忘记吧)」「――[Sophie, Welken Sie](因此，恋人啊 凋零吧)」　铺就的地面龟裂，干涸，粉碎。「[Show a Corpse](暴露你的尸体)」「[Es ist was kommen und ist was g'schehn, Ich möcht Sie fragen](有何物降临 有何事发生 我想向你提问)」「[Darf's denn sein? Ich möcht' sie fragen: warum zittert was in mir?](真的就这样好吗 我是不是犯了什么错误) 　[Sophie, und seh' nur dich und spür' nur dich.](恋人啊 我只看着你 只感受你) 　[Sophie, und weiß von nichts als nur: dich hab' ich lieb](在我的爱中腐朽吧 因为只有我知道)」「――[Sophie, Welken Sie](因此，恋人啊 凋零吧)」「[Briah](創造)――」「[Der Rosenkavalier Schwarzwald](死森的蔷薇骑士)」
+
+example:
+过去，在於何处、又有此程之幸福乎(Wo war ich schon einmal und war so selig)？汝者甚丽，其丽无价。然而无人知晓，亦无人察觉(Wie du warst! Wie du bist! Das weiß niemand, das ahnt keiner!)。
+吾人幼少，尚不知汝(Ich war ein Bub', da hab' ich die noch nicht gekannt.)。吾人谁矣？以何因缘，令吾人来到汝者之许？(Wer bin denn ich? Wie komm'denn ich zu ihr? Wie kommt denn sie zu mir?)
+若吾不配为骑士，则欲就此而死(Wär' ich kein Mann, die Sinne möchten mir vergeh'n.)。此一瞬间，无上至福――吾人便死，必不忘怀(Das ist ein seliger Augenblick, den will ich nie vergessen bis an meinen Tod.)。
+以故，恋人矣，汝当枯落(Sophie, Welken Sie)。晒其死骸(Show a Corpse)。
+吾欲问兮。何人以访，何事既起(Es ist was kommen und ist was g'schehn, Ich möcht Sie fragen)。此诚可哉？吾人可曾，铸其过错乎(Darf's denn sein? Ich möcht' sie fragen: warum zittert was in mir?)？
+恋人矣，吾眼所见，仅在汝身。吾心所感，仅限汝身(Sophie, und seh' nur dich und spür' nur dich)。
+汝以吾爱，朽腐之事，仅有吾人得知(Sophie, und weiß von nichts als nur: dich hab' ich lieb)。以故，恋人矣，汝当枯落(Sophie, Welken Sie)。
+创造(Briah)――蔷薇骑士・黑死之森(Der Rosenkavalier Schwarzwald)。
+
+## 5.1.Leonhard August　櫻井螢　Kei Sakurai（我老婆 强调！！）
+
+櫻井螢。聖槍十三騎士團黑圓桌第五位・獅子心劍。4 月 22 日生，金牛座 B 型。在第二次世界大戰時，由於德日同盟之故，因而與納粹有所關係之一族的末裔。為了填補 11 年前第五位 Beatrice Kircheisen 之死所造成的空缺而加入騎士團。其年紀與面貌相同，故與騎士團的五名幹部未曾相識。聖遺物為紀錄於『竹內文獻』中之神秘金屬「緋緋色金」。
+
+### 吟唱
+
+#### 创造
+
+5.1.1
+
+ori:「[Die dahingeschiedene Izanami wurde auf dem Berg Hiba](かれその神避りたまひし伊耶那美は) [an der Grenze zu den Ländern Izumo und Hahaki zu Grabe getragen.](出雲の国と伯伎の国 その堺なる比婆の山に葬めまつりき)」「[Bei dieser Begebenheit zog Izanagi sein Schwert,](ここに伊耶那岐) [das er mit sich führte und die Länge von zehn nebeneinander gelegten](御佩せる十拳剣を抜きて) [Fäusten besaß, und enthauptete ihr Kind, Kagutsuchi.](その子迦具土の頚を斬りたまひき)」　胸を貫き、地面に縫い止めていた杭をもすり抜けて――「[Briah](創造)――」「[Man sollte nach den Gesetzen der Götter leben.](爾天神之命以布斗麻邇爾ト相而詔之)」
+
+gpt3.5:「[Die dahingeschiedene Izanami wurde auf dem Berg Hiba](那被神所避开的伊耶那美) [an der Grenze zu den Ländern Izumo und Hahaki zu Grabe getragen.](出云之国与伯伎之国 埋葬于比婆之山的那个界限)」「[Bei dieser Begebenheit zog Izanagi sein Schwert,](此处是伊耶那岐) [das er mit sich führte und die Länge von zehn nebeneinander gelegten](拔出佩戴的十拳剑) [Fäusten besaß, und enthauptete ihr Kind, Kagutsuchi.](斩断那迦具土的颈项)」　贯穿胸膛，穿过地面上的桩子——「[Briah](創造)――」「[Man sollte nach den Gesetzen der Götter leben.](依天神之命而布斗麻迩尔相对并告诉之)」
+
+example: 
+故其所神避之伊邪那美神者(Die dahingeschiedene Izanami wurde auf dem Berg Hiba)，葬出云国与伯伎国堺比婆之山也(an der Grenze zu den Ländern Izumo und Hahaki zu Grabe getragen.)。
+於是伊邪那岐命(Bei dieser Begebenheit zog Izanagi sein Schwert,)，拔所御佩之十拳剑(das er mit sich führte und die Länge von zehn nebeneinander gelegten)，斩其子迦具土神之颈(Fäusten besaß, und enthauptete ihr Kind, Kagutsuchi.)。
+创造(Briah)――尔天神之命以太占卜相而诏之(Man sollte nach den Gesetzen der Götter leben.)。
+
+## 5.2. Walküre　(Beatrice Waltrud Von Kircheisen)
+
+贝阿朵莉丝 Beatrice Waltrud Von Kircheisen。聖槍十三騎士團黑圓桌第五位・戰姬(女武神)。1923 年 7 月 30 日生。親衛隊中衛。為螢之前任者，亦是 Eleonore 之直屬部下。雖是被稱為戰女神之德蘇戰英雄，本人則是毫無矯飾氣息不拘小節的女性。聖遺物：戰雷之聖劍
+　其明朗的氣質，在各懷陰慘業障與心靈外傷之團員之中，無疑是異類中的異類。實際上，唯有該人未將靈魂售予黑圓桌正副首領，之所以身處此油水不容之立場，是為了遂行某種目的。無奈壯志未成身先死，因此目的而於 1995 年殞命。許多人因其女之死而受到某些或多或少之影響。
+
+### 吟唱
+
+
+#### 创造
+
+詠唱內容典出理察・華格納『尼伯龍根之指環』四部曲第二部『戰女神』。
+
+ori:「[War es so schmählich,](私が犯した罪は)――」「[ihm innig vertraut-trotzt'ich deinem Gebot.](心からの信頼において あなたの命に反したこと)」「[Wohl taugte dir nicht die tör'ge Maid,](私は愚かで あなたのお役に立てなかった)」「[Auf dein Gebot entbrenne ein Feuer;](だからあなたの炎で包んでほしい)」「[Leb' wohl,du kühnes,herrliches Kind!](さらば 輝かしき我が子よ)」「[ein bräutliches Feuer soll dir nun brennen,](ならば如何なる花嫁にも劣らぬよう) 　[wie nie einer Braut es gebrannt!](最愛の炎を汝に贈ろう)」「[Wer meines Speeres Spitze furchtet, durchschreite das feuer nie！](我が槍を恐れるならば この炎を越すこと許さぬ)」「[Briah](創造)――」「[Donner Totentanz](雷速剣舞)――」「[Walküre](戦姫変生)！」
+
+gpt3.5:「[War es so schmählich,](我所犯下的罪过)――」「[ihm innig vertraut-trotzt'ich deinem Gebot.](源自内心的信赖 违背了你的生命)」「[Wohl taugte dir nicht die tör'ge Maid,](我愚蠢至极 未能为你效劳)」「[Auf dein Gebot entbrenne ein Feuer;](因此，我希望你用你的火焰将我包裹。)」「[Leb' wohl,du kühnes,herrliches Kind!](再见。 辉煌的我的孩子啊。)」「[ein bräutliches Feuer soll dir nun brennen,](如同任何花嫁一般) 　[wie nie einer Braut es gebrannt!](将我最爱的烈焰赠予你)」「[Wer meines Speeres Spitze furchtet, durchschreite das feuer nie！](如果你害怕我的长矛 也决不容许逾越这烈焰)」「[Briah](創造)――」「[Donner Totentanz](雷速剑舞)――」「[Walküre](战姬变生)！」
+
+example:
+吾人所铸之罪(War es so schmählich)，乃系以发自内心之信赖，而违背汝命尔(ihm innig vertraut-trotzt'ich deinem Gebot)。
+吾人驽钝，无以助汝(wohl taugte dir nicht die tör'ge Maid)。以故，愿为汝之烈焰所包摄(Auf dein Gebot entbrenne ein Feuer;)。
+畏惧吾人之枪者，不许跨越此炎(Wer meines Speeres Spitze fuchtet, durchschreite das feuer nie,)！创造(Briah)——雷速剑舞・战姬变生(Donner Totentanz——Walküre)。
+是以如今(だから今)，我於此这般(私はこうして此处にいる)。只望令你因血锈蚀之理想(血で锖びついた贵女の理想（剑）に)，再度放出光芒(再び辉きを灯せるように)。
+
+## 6.1 Zonnenkind　冰室玲愛　Theresia(洗礼名)
+
+冰室玲愛。聖槍十三騎士團黑圓桌第六位・太阳御子(Zonnenkind)。翠化。12 月 25 日生，摩羯座 A 型。受洗名為 Theresia，玲愛為日文譯名。詳情不明。納粹的亞利安人培養機構・生命之泉協會所創造之究極亞利安血統。在騎士團員中，並不參與戰鬥活動，其戰鬥能力亦與一般人無異，但具有其他的重要任務。聖遺物為理想鄉中八具鍊成陣所組成之「聖櫃」
+
+### 吟唱
+
+#### 流出
+
+ori:「[Auferstehn, ja auferstehn, wirst du,](蘇る そう あなたはよみがえる)　[Mein Staub, nach kurzer Ruh.](私の塵は 短い安らぎの中を漂い)　[Unsterblich Leben wird,](あなたの望みし永遠の命がやってくる)」「[Wieder aufzublühn wirst du gesät!](種蒔かれしあなたの命が 再びここに花を咲かせる)　[Der Herr der Ernte geht](刈り入れる者が歩きまわり)　[und sammelt Garben Uns ein, die starben.](我ら死者の 欠片たちを拾い集める)」「[O glaube, mein Herz, o glaube. Es geht dir nichts verloren!](おお 信ぜよわが心 おお信ぜよ 失うものは何もない)」　「[Dein ist, dein, was du gesehnt.](私のもの それは私が望んだもの)　[Dein, was du geliebt, was du gestritten!](私のもの それは私が愛し戦って来たものなのだ)」「[O glaube,: du wardst nicht umsonst geboren!](おお 信ぜよ あなたは徒に生まれて来たのではないのだと)　[Hast nicht umsonst gelebt, gelitten!](ただ徒に生を貪り 苦しんだのではないのだと)」「[Was entstanden ist, das muß vergehen.](生まれて来たものは 滅びねばならない)」「[ Was vergangen, auferstehen!](滅び去ったものは よみがえらねばならない)」「[Hör auf zu beben!](震えおののくのをやめよ)」「[Bereite dich zu leben!](生きるため 汝自身を用意せよ)」「[O Schmerz! du Alldurchdringer!](おお 苦しみよ 汝は全てに滲み通る)」「[Dir bin, o Tod! du Allbezwinger, ich entrungen!](おお 死よ 全ての征服者であった汝から 今こそ私は逃れ出る)」「[Nun bist du bezwungen!](祝えよ 今こそ汝が征服される時なのだ)」「[Atziluth](流出)――」「[Heilige Arche](壷中聖櫃)――[Goldene Eihwaz](不死創造する) [Swastika](生贄祭壇)」
+
+gpt3.5:「[Auferstehn, ja auferstehn, wirst du,](蘇る そう 你将重生)　[Mein Staub, nach kurzer Ruh.](我的尘埃 漂浮在短暂的宁静中)　[Unsterblich Leben wird,](你所期望的永恒之命即将降临)」「[Wieder aufzublühn wirst du gesät!](你所播下的命运之种 将再次在此绽放花朵)　[Der Herr der Ernte geht](收割者四处徜徉)　[und sammelt Garben Uns ein, die starben.](我们死者的 拾起我们的碎片)」「[O glaube, mein Herz, o glaube. Es geht dir nichts verloren!](おお 相信吧我的心 啊，请相信 没有什么可以失去的)」「[Dein ist, dein, was du gesehnt.](属于我 那是我所期望的)　[Dein, was du geliebt, was du gestritten!](属于我 那是我所深爱并战斗过的东西)」「[O glaube,: du wardst nicht umsonst geboren!](おお 请相信 你并非徒然而生)　[Hast nicht umsonst gelebt, gelitten!](并非徒然地贪婪生命 并非徒然地受苦)」「[Was entstanden ist, das muß vergehen.](诞生的存在 必将毁灭)」「[ Was vergangen, auferstehen!](已毁灭的存在 必将复苏)」「[Hör auf zu beben!](停止颤抖和恐惧吧)」「[Bereite dich zu leben!](为了活下去 自己准备好)」「[O Schmerz! du Alldurchdringer!](おお 痛苦啊 你渗透其中的一切)」「[Dir bin, o Tod! du Allbezwinger, ich entrungen!](おお 死よ 从曾是一切征服者的你那里 现在我逃出了)」「[Nun bist du bezwungen!](庆祝吧 现在是你被征服的时候了)」「[Atziluth](流出)――」「[Heilige Arche](壶中圣柜)――[Goldene Eihwaz](不死创造) [Swastika](生贽祭坛)」
+
+
+example:
+上帝之子，显现於此(Vere filius Dei erat iste)。
+苏醒(Auferstehn)。是矣，汝将苏醒(ja auferstehn, wirst du)。 吾之尘者(Mein Staub)，在短暂安歇之后(nach kurzer Ruh)， 将赋予汝者所望之永恒之命(Unsterblich Leben wird)。
+交赋予汝者(der dich rief, dir geben)。 汝被种下之命者，其花将再度绽放(Wieder aufzublühn wirst du gesät)！ 刈入之者，将再度回步(Der Herr der Ernte geht)，
+收集我等(und sammelt Garben)， 死者之欠片(Uns ein, die starben)。 呜呼，信兮。吾之心(O glaube, mein Herz)！呜呼，信兮(o glaube)。 汝者己然无所可失(Es geht dir nichts verloren)！
+吾之物——其为吾之所望者(Dein ist, dein, was du gesehnt)。 私之物——其为吾之所爱者，争战而来者矣(Dein, was du geliebt, was du gestritten)！
+呜呼，信兮(O glaube)，汝非徒然生诞至今者矣(du wardst nicht umsonst geboren)！ 汝非仅只徒然贪生、甘受苦痛者矣(Hast nicht umsonst gelebt, gelitten)！
+生而至今者(Was entstanden ist)，其非殄灭不可(das muß vergehen)。 已然殄灭者(Was vergangen)，其非复苏不可(afersteuhen!)。 停止颤栗(Hör auf zu beben)！
+奉为所生，汝当备妥自身(Bereite dich zu leben)！ 呜呼，苦兮！(O Schmerz)！汝将渗通一切万物(du Alldurchdringer)！
+呜呼，死兮！汝曾为一切之征服者(Dir bin, o Tod! du Allbezwinger)， 吾今将自其中超脱(ich entrungen)！ 今日，汝等方为被征服者(Nun bist du bezwungen)！流出(Atziluth)—— 壶中圣柜・不死创造之生贽祭坛(Heilige Arche―Goldene Eihwaz Swastika)！
+
+## 6.2 Erste Zonnenkind　Isaak
+
+　Isaak。聖槍十三騎士團黑圓桌第六位，初代太陽御子。翠化。第五破壞。1942 年 8 月 31 日生。反覆研究以人為手段造出優性人種之機構・生命之泉協會所祕藏之少年。生後三年，即成長如十歲孩童，精通德、英、法、義、俄、日六國語言。
+　確實為 Riza 所親生，然詳其父。Riza 雖有夫婿，但為彼人子胤之機率極低。或許自一開始其父親未嘗存在，真實唯 Riza 一人知曉。大戰後受前親衛隊成員組織保護，與南美日系移民產下一子後死亡。享年23歲。
+
+### 吟唱
+
+#### 创造
+
+跟黄金一样
+
+ori:「[Dieser Mann wohnte in den Gruften, und niemand konnte ihm keine mehr,](その男は墓に住み あらゆる者も あらゆる鎖も)[nicht sogar mit einer Kette, binden.](あらゆる総てをもってしても繋ぎ止めることが出来ない)」「[Er ris die Ketten auseinander und brach die Eisen auf seinen Fusen.](彼は縛鎖を千切り 枷を壊し 狂い泣き叫ぶ墓の主)[Niemand war stark genug, um ihn zu unterwerfen.](この世のありとあらゆるモノ総て 彼を抑える力を持たない)」「[Dann fragte ihn Jesus. Was ist Ihr Name?](ゆえ 神は問われた 貴様は何者か)」「[Es ist eine dumme Frage. Ich antworte.](愚問なり 無知蒙昧 知らぬならば答えよう)」「[Briah](創造)――」「[Gladsheimr](至高天)――[Gullinkambi fünfte Weltall](黄金冠す第五宇宙)」
+
+gpt3.5:「[Dieser Mann wohnte in den Gruften, und niemand konnte ihm keine mehr,](那个男人住在坟墓里 所有的人 所有的锁链)[nicht sogar mit einer Kette, binden.](即使拥有一切也无法阻止连接)」「[Er ris die Ketten auseinander und brach die Eisen auf seinen Fusen.](他撕裂了束缚 打破了枷锁 坟墓的主人疯狂地哭泣着喊叫)[Niemand war stark genug, um ihn zu unterwerfen.](这个世界上所有的事物 都无法阻止他)」「[Dann fragte ihn Jesus. Was ist Ihr Name?](ゆえ 神被质问道 你到底是谁)」「[Es ist eine dumme Frage. Ich antworte.](愚蠢的问题 无知愚昧 不知道的话，我来告诉你)」「[Briah](創造)――」「[Gladsheimr](至高之境)――[Gullinkambi fünfte Weltall](第五宇宙被黄金所覆盖)」
+
+
+## 7. Göetz von Berlichingen　Machina　Michael Wittmann
+
+钢铁之腕(Göetz von Berlichingen)
+
+Machina。聖槍十三騎士團黑圓桌第七位・鋼鐵之腕。黑騎士，銘為鋼鐵。1914 年 4 月 22 日生。騎士團幹部，在團中除雙首領外，能力拔群之最強實力者。元隸屬於武裝親衛隊第一裝甲師團・阿道夫･希特勒親衛聯隊，官拜上尉。在騎士團中，名目上死亡者不為少數，但僅此一人真的死過一次。是以連同胞皆畏懼之，視之為亡靈、受詛咒者。在經驗死亡之際失去了本名，Berlichingen 不過是其稱號。雖然數名親近者以 Machina(8马基那) 稱之，卻似乎亦非本名。現在，在61年前柏林淪陷之時消蹤匿跡，至今行蹤不明。副首領將於蠱毒戰中勝出之不死英靈 Michael Wittmann 之魂封入虎式VI號戰車中，並將之鍊為鋼鐵人形，填補具左右劇情走向之黑圓桌第七位天秤宮之闕位。鋼鐵之軀即是其聖遺物・機械仕掛之神「機神・鋼化英雄」。
+
+
+ori:「[Tod! Sterben Einz'ge Gnade!](死よ 死の幕引きこそ唯一の救い)」「[Die schreckliche Wunde, das Gift, ersterbe,](この 毒に穢れ 蝕まれた心臓が動きを止め)　[das es zernagt, erstarre das Herz!](忌まわしき 毒も 傷も 跡形もなく消え去るように)」「[Das mich vergiftet, hier fliesst mein Blut:](滴り落ちる血の雫を 全身に巡る呪詛の毒を)　[Heraus die Waffe! Taucht eure Schwerte.](武器を執れ 剣を突き刺せ)　[tief, tief  bis ans Heft!](深く 深く 柄まで通れと)」「[Das mich vergiftet, hier fliesst mein Blut:](滴落的鲜血之珠 全身循环着诅咒毒素)　[Heraus die Waffe! Taucht eure Schwerte.](拿起武器 刺出剑)　[tief, tief  bis ans Heft!](深く 深く 直到刺入把柄)」「[Briah](創造)――」「[Miðgarðr Völsunga Saga](人世界・終焉変生)」
+
+gpt3.5:「[Tod! Sterben Einz'ge Gnade!](死よ 死亡的终幕才是唯一的救赎)」「[Die schreckliche Wunde, das Gift, ersterbe,](この 被毒污染 腐蚀的心脏停止了跳动)　[das es zernagt, erstarre das Herz!](可憎的 毒も 傷も 就像消失得无影无踪)」「[Das mich vergiftet, hier fliesst mein Blut:](滴り落ちる血の雫を 全身に巡る呪詛の毒を)　[Heraus die Waffe! Taucht eure Schwerte.](武器を執れ 剣を突き刺せ)　[tief, tief  bis ans Heft!](深く 深く 柄まで通れと)」「[Auf! Ihr Helden:](さあ 骑士们啊)　[Totet den Sunder mit seiner Qual,](罪人 连同他们的痛苦一起刺入吧)　[von selbst dann leuchtet euch wohl der Gral!](至高的光芒将自然而然地 照耀在其上并降临下来)」「[Briah](創造)――」「[Miðgarðr Völsunga Saga](人世界·终焉变生)」
+
+example:
+死矣，死之落幕，方是唯一之救赎(Tod! Sterben Einz'ge Gnade)。
+此心脏，为毒所秽犯、侵蚀，将永息其搏动(Die schreckiche Wunde, das Gift, ersterbe)。忌讳之毒，嫌恶之伤，犹欲将之消逝无踪(das es zernagt, erstarre das Herz!)。
+视此绽开之伤口，犹见不愈之病巢而可也(Hier bin ich, die off'ne Wunde hier!)。滴落之血雫，逡巡全身之呪诅之毒(Das mich vergiftet, hier fliesst mein Blut)。
+汝当手执武器，持剣突刺(Heraus die Waffe! Taucht eure Schwerte)。深邃，深邃，直至剑柄贯通为止(tief, tief, bis ans Heft!)。
+去矣，诸位骑士(Auf! Ihr Helden)！刺向罪人，将其诸多苦恼一同殄灭(Totet den Sunder mit seiner Qual)。
+至高之光，将自发光明，照耀其上，降注恩惠乎(Von selbst dann leuchtet euch wohl der Gral!)。创造(Briah)——人世界・终焉变生(Miðgarðr Völsunga Saga)
+
+## 8. Malleus Maleficarum　Rusalka Maria Schwägerin
+
+　Rusalka Maria Schwägerin。聖槍十三騎士團黑圓桌第八位・魔女鐵鎚(Malleus Maleficarum)。1751 年 11 月 18 日生。元德意志古代遺產繼承局之初期成員，階拜准尉。在加入騎士團之前，便已然傾倒於魔道的純血魔女。 外表看似年幼，實則為團員中除副首領之外最年長者。因此，縱然其本性則是狡猾而老獪，外在卻偽裝作一副可人憐愛的樣子，為人極為惡劣。喜好拷問，更是極度古靈精怪的性情不定者。雖非武鬥派，但其殘虐程度可與 Wilhelm 相較。
+　聖遺物為以 Elisabeth Báthory 之日記為素體之「血之伯爵夫人」，具現為拷問刑具而戰鬥。
+
+neta自最后被审判的巫女，故有魔名魔女铁鎚(Malleus Maleficarum)
+
+### 吟唱
+
+#### 创造
+
+ori:「[In der Nacht, wo alles schläft](ものみな眠るさ夜なかに )」「[Wie schön, den Meeresboden zu verlassen.](水底を離るることぞうれしけれ。)」。「[Ich hebe den Kopf über das Wasser,](水のおもてを頭もて、)　[Welch Freude, das Spiel der Wasserwellen](波立て遊ぶぞたのしけれ。)」「[Durch die nun zerbrochene Stille,](澄める大気をふるわせて、)[Rufen wir unsere Namen](互に高く呼びかわし )　[Pechschwarzes Haar wirbelt im Wind](緑なす濡れ髪うちふるい……)」「[Welch Freude, sie trocknen zu sehen.](乾かし遊ぶぞたのしけれ！)」「[Briah](创造)―」「[Csejte Ungarn Nachtzehrer](チェイテ・ハンガリア・ナハツェーラー)」
+
+gpt3.5:「[In der Nacht, wo alles schläft](在所有人都沉睡的夜晚里 )」「[Wie schön, den Meeresboden zu verlassen.](离开水底是多么快乐啊。)」「[Ich hebe den Kopf über das Wasser,](将头浸入水面，)　[Welch Freude, das Spiel der Wasserwellen](玩耍起波涛汹涌来多么快乐啊。)」「[Durch die nun zerbrochene Stille,](使清澈的空气颤抖起来，)[Rufen wir unsere Namen](互相高声呼唤着 )　[Pechschwarzes Haar wirbelt im Wind](绿色湿漉漉的长发摇曳……)」「[Welch Freude, sie trocknen zu sehen.](让我来干燥地玩耍吧！)」「[Briah](创造)―」「[Csejte Ungarn Nachtzehrer](切特·汉加利亚·纳哈策拉)」
+
+example：
+万物沉眠小夜中(In der Nacht, wo alles schläft)，身离水底心欣喜(Wie schön, den Meeresboden zu verlassen.)。举首探头出水面(Ich hebe den Kopf über das Wasser,)，捣浪嬉游尽欢愉(Welch Freude, das Spiel der Wasserwellen)。
+清澄大气使震撼(Durch die nun zerbrochene Stille,)。交互高呼同欢唱(Rufen wir unsere Namen)。振甩翠绿濡秀发(Pechschwarzes Haar wirbelt im Wind.)……
+振乾美发乐嬉游(Welch Freude, sie trocknen zu sehen.)！创造(Briah)——拷问城之食人影(Csefte Ungarn Nachtzehrer)
+
+## 9. Samiel Zentaur　Eleonore Von Wittenburg
+
+　Eleonore Von Wittenburg。聖槍十三騎士團黑圓桌第九位・魔操砲兵。赤騎士，銘為紅蓮。1914 年 12 月 13 日生。騎士團幹部，亦為團中除雙首領外，能力拔群之最強實力者之一。元 第2 SS 裝甲師團・帝國大隊長。階級為少校。出生為軍人貴族世家，一路走來皆為菁英份子，但在接觸首領後傾倒於魔道。 在首領遭暗殺之時，一同潛下歷史暗闇，盡力於聖槍十三騎士團之設立。正因其出生為正統派軍人，故性格嚴格，無論其思想、行動，皆無遊樂的成分。是以一旦其行動，絕不容許不夠徹底的結果。現在，在61年前柏林淪陷之時消蹤匿跡，至今行蹤不明。聖遺物為以朵拉列車砲為素體之「極大火砲･狩獵魔王」。
+
+### 吟唱
+
+#### 创造
+9.1
+ori:[Echter als er schwur keiner Eide;](彼ほど真実に誓いを守った者はなく)　[treuer als er hielt keiner Verträge;](彼ほど誠実に契約を守った者もなく)　[lautrer als er liebte kein andrer:](彼ほど純粋に人を愛した者はいない)」「[und doch, alle Eide, alle Verträge,](だが彼ほど 総ての誓いと総ての契約)　[die treueste Liebe trog keiner wie er](総ての愛を裏切った者もまたいない)　[Wißt ihr, wie das ward?](汝ら それが理解できるか)」「[Das Feuer, das mich verbrennt, rein'ge vom Fluche den Ring!](我を焦がすこの炎が 総ての穢れと総ての不浄を祓い清める)」「[Ihr in der Flut löset ihn auf,und lauter bewahrt das lichte Gold,](祓いを及ぼし 穢れを流し 熔かし解放して尊きものへ)　[das euch zum Unheil geraubt.](至高の黄金として輝かせよう)」　「[Denn der Götter Ende dämmert nun auf.](すでに神々の黄昏は始まったゆえに)　[So - werf' ich den Brand in Walhalls prangende Burg.](我はこの荘厳なるヴァルハラを燃やし尽くす者となる)」「[Briah](創造)――」「[Muspellzheimr Lævateinn](焦熱世界・激痛の剣)」
+
+gpt3.5:「[Echter als er schwur keiner Eide;](没有人能像他一样忠于誓言)　[treuer als er hielt keiner Verträge;](没有人能像他一样忠于契约)　[lautrer als er liebte kein andrer:](没有人能像他一样纯粹地爱着别人)」「[und doch, alle Eide, alle Verträge,](但他…… 所有的誓言和所有的契约)　[die treueste Liebe trog keiner wie er](没有背叛所有的爱者)　[Wißt ihr, wie das ward?](汝ら 你能理解吗)」「[Das Feuer, das mich verbrennt, rein'ge vom Fluche den Ring!](燃烧我的这团火焰 净化和洗净一切污秽)」「[Ihr in der Flut löset ihn auf,und lauter bewahrt das lichte Gold,](施加净化 冲刷污秽 融化并释放至尊之物)　[das euch zum Unheil geraubt.](让其闪耀为至高的黄金)」「[Denn der Götter Ende dämmert nun auf.](因为神祗的黄昏已经开始了)　[So - werf' ich den Brand in Walhalls prangende Burg.](我将成为燃尽这庄严瓦尔哈拉的存在者)」「[Briah](創造)――」「[Muspellzheimr Lævateinn](灼热世界·剧痛之剑)」
+
+example：
+未有真实守誓如彼者(Echter als er schwür keiner Eide;)。亦未有诚实守契如彼者(treuer als er hielt keiner Verträge;)。更莫有纯粹爱人如彼者(lautrer als er liebte kein andrer:)。
+然而，破弃一切誓言、契约，背叛一切钟爱如彼者，亦未之有也(und doch, alle Eide, alle Verträge, die treueste Liebe trog keiner wie er)。汝等，诚可理解之乎(wißt ihr, wie das ward?)？
+令吾焦灼之此炎者，祓清一切污秽、一切不净(Das Feuer, das mich verbrennt, rein'ge vom Fluche den Ring!)。
+及禊祓、流罪秽，熔化、解放，以至之尊者(Ihr in the Flut löset ihn auf, und lauter bewahrt das lichte Gold,)。身作至高之黄金，辉耀光明(das euch zum Unheil geraubt.)。
+以诸神黄昏既肇之故(Denn der Göter Ende dämmert nun auf.)， 吾将身化燃尽此庄严 Walhalla 之者(So-werf' ich den Brand in walhalls prangende Burg.)。
+创造(Briah)――焦热世界・激痛之剑(Muspellzheimr Lævateinn)
+
+## 10. Rot Spinne
+
+Spinne。本名不詳。聖槍十三騎士團黑圓桌第十位・紅蜘蛛。1980 年 1 月 7 日生。於各地的收容所反覆進行人體實驗的狂人科學家。階級為少尉。戰後隸屬於納粹軍人逃亡機構・前親衛隊成員組織，為團內最接近表世界者。今以諜報活動為其專業，而不加入戰鬥部隊。比起戰鬥，更樂於虐殺弱者。聖遺物為邊獄舍(華沙)絞殺繩。
+
+无吟唱
+
+## 11. Babylon Magdalena　Riza Brenner
+
+Riza Brenner。聖槍十三騎士團黑圓桌第十一位・大淫婦。1915 年 2 月 11 日生。元生命之泉協會機構所屬，盡力於量產純種亞利安人血統。雖非軍籍，確保有相當於少校級的地位與權限。與Valeria Trifa為舊知，於團中擔任其輔佐官。在滿佈人格破綻者的騎士團中，算是較具良識的而正經的人。然而，一如其名號 Babylon ，具有產生兇惡存在的特性。儘管本身戰鬥能力不高，但可藉其聖遺物「蒼褪死面」將 Tubal 該隱作為其附屬武器而堪稱噩耗。就某種意義而言，與騎士團相戦之際，是非得先解決掉不可的角色。聖遺物為以赤子皮膚製成之「蒼褪死面」
+
+### 吟唱
+
+#### 形成
+
+ori:「[Puteus aquarum viventium](プテウス・アクァールム・ウィーウェンティウム)[Das sich die Himmel regen Und Geist und Korper sich bewegen](天が雨を降らすのも 霊と身体が動くのも)[Gott selbst hat sich zu euch geneiget Und ruft durch Boten ohne Zahl](神は自らあなたの許へ赴き 幾度となく使者でもって呼びかける)」「[Auf, kommt zu meinem Liebesmahl](起きよ そして参れ 私の愛の晩餐へ)――」
+
+gpt3.5:「[Puteus aquarum viventium](普特乌斯·阿卡鲁姆·维文提乌姆)[Das sich die Himmel regen Und Geist und Korper sich bewegen](天空下起雨来 灵魂和身体开始活动)[Gott selbst hat sich zu euch geneiget Und ruft durch Boten ohne Zahl](神亲自前来探访你 数次使者呼唤)」「[Auf, kommt zu meinem Liebesmahl](醒来吧 然后前来吧 来参加我的爱之晚餐吧)――」
+
+example:
+生命之泉(Puteus aquarum viventium)―所谓雨自天降，灵与身动(Das sich die Himmel regen Und Geist und Korper sich bewegen)，
+此皆上帝躬赴汝许，几度遣使，呼唤招汝(Gott selbst hat sich zu euch geneiget Und ruft durch Boten ohne Zehl)。起身兮，参诣之，临来吾人爱之晩宴(Auf,kommt zu meinem Liebesmahl)―
+
+形成(Yetzirah)——苍褪死面(Pallida Mors)
+
+## 12. Hrozvitnir　Wolfgang Schreiber
+
+斯莱伯
+恶名昭彰之狼(Hrozvitnir)
+Wolfgang Schreiber。聖槍十三騎士團黑圓桌第十二位・惡名昭彰之狼。白騎士 ，銘為狂亂。1920 年 2 月 27 日生。騎士團幹部，團中除雙首領外，能力拔群之最強實力者之一。元 第3 SS 裝甲師團・髑髏大隊長。 兼東部戰線遊撃部隊特別殺戮部隊長。階級為少校。 為毫無主張與信念的殺人狂，因敵我不分一切殺虐不受控制之故，被德軍肅清。其後為騎士團吸收，而存活至今，亦是全團員中殺人數最多者。性格已然難用人格異常者形容，無寧說是理智既已完全壞損，無法御制其行動與凶暴。然而，在殺人技術上異常優越，因而於實力至上主義的騎士團內站穩不動的地位。 除了以力屈服之首領以外，即便是友軍也難保不以刃牙相向的危險人物。具有「Vanargand」、「暴風」等許多禍厄般的稱號。 現在，在61年前柏林淪陷之時消蹤匿跡，至今行蹤不明。聖遺物為以 Zündapp KS750 為素體之「身纏風暴之破壞獸」。
+
+### 吟唱
+
+#### 创造
+
+12.1
+ori:「[Vorüber, ach, vorüber! geh, wilder knochenmann!](ああ わたしは願う どうか遠くへ 死神よどうか遠くへ行ってほしい)」「[Ich bin noch jung, geh, Lieber! Und rühre mich nicht an.](わたしはまだ老いていない 生に溢れているのだからどうかお願い 触らないで)」「[Gib deine Hand, du schön und zart Gebild!](美しく繊細な者よ 恐れることはない 手を伸ばせ)[Bin Freund und komme nicht zu strafen.](我は汝の友であり 奪うために来たのではないのだから)」「[Sei guten Muts! Ich bin nicht wild,](ああ 恐れるな怖がるな 誰も汝を傷つけない)　[sollst sanft in meinen Armen schlafen!t](我が腕の中で愛しい者よ 永劫安らかに眠るがいい)」「[Briah](創造)――」「[Niflheimr Fenriswolf](死世界・凶獣変生)――」
+
+en:"[Vorüber, ach, vorüber! geh, wilder knochenmann!](Ah, I plead with you, O reaper of souls, leave me be!)""[Ich bin noch jung, geh, Lieber! Und rühre mich nicht an.](Go far and touch me not, for I'm still young and warm with life's breath!)""[Gib deine Hand, du schön und zart Gebild!](Fear me not and take my hand, fair and beautiful one!) [Bin Freund und komme nicht zu strafen.](I am your friend and came with no intention to harm you.)""[Sei guten Muts! Ich bin nicht wild,](Ah, there is nary a need to be afraid and startled, for no one shall hurt you.)[sollst sanft in meinen Armen schlafent!](May you rest in my embrace, O beloved one, and enjoy everlasting repose!)"
+
+gpt3.5:「[Vorüber, ach, vorüber! geh, wilder knochenmann!](ああ 我希望 请让我去远方 死神啊，请去远方吧)」「[Ich bin noch jung, geh, Lieber! Und rühre mich nicht an.](我还没有老去 因为我充满生命，请务必 别碰我)」「[Gib deine Hand, du schön und zart Gebild!](美丽而娇嫩的人啊 不必害怕 伸出你的手)[Bin Freund und komme nicht zu strafen.](我是你的朋友 我不是来夺取的)」「[Sei guten Muts! Ich bin nicht wild,](ああ 不要害怕，不要恐惧 没有人会伤害你)　[sollst sanft in meinen Armen schlafent!](在我的怀抱中，我的爱人啊 永远安详地入睡吧)」「[Briah](創造)――」「[Niflheimr Fenriswolf](死世界·凶兽变生)――」
+
+example:
+呜呼，吾愿(Vorüber,ach,)。伏请远行。死神矣，冀汝远离行去(vorüber!geh,wilder knochenmann!)。吾未老衰，生气满溢(Ich bin noch jung, geh, Lieber!)。是以愿之，勿触吾身(Und rühre mich nicht an.)。
+美丽繊细者矣，无事须惧。伸手开怀。(Gib deine Hand, du schön und zart Gebild!)吾是汝友，非为夺取而来也。(Bin Freund und komme nicht zu strafen.)
+呜呼，莫恐、莫惧(Sei guten Muts!)。无论谁何，皆不伤汝(lch bin nicht wild,)。怜爱之人，在吾腕中，永劫安息而可也。(sollst sanft in meinen Armen schlafen!)
+创造(Briah)――死世界・凶兽变生(Niflheimr Fenriswolf)
+
+12.2
+
+ori:「[Fahr’hin,Waihalls lenchtende Welt](さらば ヴァルハラ 光輝に満ちた世界)」「[Zarfall’in Staub deine stolze Burg](聳え立つその城も 微塵となって砕けるがいい)」「[Leb’wohl, prangende Gotterpracht](さらば 栄華を誇る神々の栄光)」「[End’in Wonne, du ewig Geschlecht](神々の一族も 歓びのうちに滅ぶがいい)」「[Briah](創造)――」「[Niflheimr Fenriswolf](死世界・凶獣変生)――」
+
+en:"[Fahr’hin, Waihalls lenchtende Welt](Farewell, brave realm of splendor; farewell, Valhalla!)" "[Zarfall’in Staub deine stolze Burg](Let your proud castles, towering bastions all crumble to ruin!)" "[Leb’wohl, prangende Gotterpracht](Farewell, resplendent pomp of the gods — farewell!)""[End’in Wonne, du ewig Geschlecht](May you find rapture in your end, O race of immortals!)"
+
+gpt3.5:「[Fahr’hin,Waihalls lenchtende Welt](再见。 瓦尔哈拉 充满光辉的世界)」「[Zarfall’in Staub deine stolze Burg](屹立的城池 化为微尘吧)」「[Leb’wohl, prangende Gotterpracht](再见。 夸耀着神祇的荣光)」「[End’in Wonne, du ewig Geschlecht](神祇一族也 在欢乐中毁灭吧)」「[Briah](創造)――」「[Niflheimr Fenriswolf](死世界·凶兽变生)――」
+
+example:
+别矣！Walhalla，光辉满盈之世(Fahr' hin,Waihalls lenchtende Welt)！此城纵巍峨耸立，仍宜碎作石砾，化作微尘(Zarfall' in Staub deine stolze Burg)！
+永别矣，众神称道荣华之荣光(Leb' wohl, prangende Gotterpracht)！众神一族，亦当在欢乐之中灭去(End' in Wonne, du ewig Geschlecht)！
+创造(Briah)——死世界・凶兽变生(Niflheimr Fenriswolf)
+
+## 13. Mercurius　Hermes Trismegistos
+
+水银
+　Mercurius。聖槍十三騎士團副首領，黑圓桌第十三位・水銀之王。被譽作最接近世上真理的魔術師 Hermes Trismegistos，亦以 Comte de Saint-Germain、Michel de Nostredame、Paracelsus、Johann Georg Faust、Christian Rosencreutz、Albertus Magnus、 Alessandro Cagliostro、Carl Ernst Kraft 等名行於世。創造出黑圓桌與永劫破壞的魔術師、鍊金術師。亦是將原來僅是菁英將校們趣味消遣的騎士團變成魔人軍團的黑慕。身為超越者，是團中唯一與首領同格的存在，亦是其至親好友。 對一切團員而言，是亦師亦父般的存在。 然而，卻被除首領之外的全數團員激烈地憎惡、恐懼、忌避，是幾近「希望將其存在抹削」般禁忌的人物。 異常且病態地為團員們所畏怖，團中只有首領與 Berlichingen 能與之當面相談，連 Samiel 與 Schreiber 亦對其敬而遠之。老一輩的團員對 Mercurius 的力量抱有劣等感，為超越其而奮不顧身。 來歷、經歷，一切不明。在 61 年前柏林淪陷時離開騎士團，至今行蹤不明。
+
+
+## 14. Zarathustra Übermensch
+
+男主， 是水银创造出的圣遗物 而男主的圣遗物是玛丽
+藤井蓮。聖槍十三騎士團副首領代理，黑圓桌第十三位・行遂超越之超人之理。遞補副首領 Mercurius 之空闕的代理，然而其詳細不明。 被視為與 Mercurius 持有相同的聖遺物。 實則為 Mercurius 以駕馭「Marguerite之斷頭臺」為目的而藉 賢者之石所創造的聖遺物，是為副首領 Mercurius 唯一且正統之繼承者。據傳當其「完成」之時，將成為與首領匹敵的存在。其聖遺物是即以 Marguerite 之斷頭臺為素體之「罪姬・正義之柱」，其中宿有人類史上最惡且最美之魂・Marie ，唯有身為其刀鞘的蓮得以駕馭。
+
+
+### 吟唱
+
+ori: [時よ止まれ](Verweile doch)[おまえは美しい](Du bist so schön)
+en: [Halt, O time](Verweile doch)―[For thou art fair.](Du bist so schön)
+gpt3.5:时光停驻，你是如此美丽
+
+#### 创造
+
+ori:[Die Sonne toent nach alter Weise In Brudersphaeren Wettgesang.](日は古より変わらず星と競い)　[Und ihre vorgeschriebne Reise Vollendet sie mit Donnergang.](定められた道を雷鳴のごとく疾走する)」「[Und schnell und begreiflich schnell In ewig schnellem Sphaerenlauf.](そして速く 何より速く 永劫の円環を駆け抜けよう)」「[Da flammt ein blitzendes Verheeren Dem Pfade vor des Donnerschlags;](光となって破壊しろ その一撃で燃やし尽くせ)」「[Da keiner dich ergruenden mag, Und alle deinen hohen Werke](そは誰も知らず 届かぬ 至高の創造)　[Sind herrlich wie am ersten Tag.](我が渇望こそが原初の荘厳)」「[Briah](創造)――」「[Eine Faust](美麗刹那)――」「[Ouvertüre](序曲)」
+
+en:[Die Sonne tönt nach alter Weise in Brudersphären Wettgesang.](The Sun, since time immemorial, his brother-stars in song had rivaled)[Und ihre vorgeschriebne Reise vollendet sie mit Donnergang.](Bolting 'long a path predestined, with thunder echoing in his wake)"[Und schnell und unbegreiflich schnelle in ewig schnellem Sphärenlau](And with swiftness — swiftness beyond measure — his perpetual cycle fought)[Da flammt ein blitzendes Verheeren Dem Pfade vor des Donnerschlags;](His path ravaged, to ashes scorched)"[Da keiner dich ergruenden mag, Und alle deinen hohen Werke"](Unknown, peerless supremacy, by heav'ns wrought)["Sind herrlich wie am ersten Tag.](Equal in beauty to the first of your days.)""[Beri'ah](Creation Figment)—""[Eine Faust](Ephemeral Moment)――Ouvertüre!"
+
+gpt3.5:「[Die Sonne toent nach alter Weise In Brudersphaeren Wettgesang.](白天自古以来一直与星竞争)　[Und ihre vorgeschriebne Reise Vollendet sie mit Donnergang.](如雷鸣般地疾驰在既定之路上)」「[Und schnell und begreiflich schnell In ewig schnellem Sphaerenlauf.](然后快一点 比任何事都要快 永恒的循环中穿行吧)」「[Da flammt ein blitzendes Verheeren Dem Pfade vor des Donnerschlags;](成为光，将其摧毁 用一击将其燃烧殆尽)」「[Da keiner dich ergruenden mag, Und alle deinen hohen Werke](那是谁也不知道的事 无法触及 至高的创造)　[Sind herrlich wie am ersten Tag.](我的渴望才是原初的庄严)」「[Briah](創造)――」「[Eine Faust](美丽的瞬间)――」「[Ouvertüre](序曲)」
+
+example：
+天日与星，自古相竞，永世不渝(Die Sonne tonet nach alter Weise In Brudersphaeren Wettgesang)。所定道上，奔驰急走，宛若雷鸣(Und ihre vorgeschriebne Reise Vollendet sie mit Donnergang)。
+其迹且速，远胜世界万物，一欲突破永劫之圆环(Und schnell und begreifich schnell In ewig schnellem Sphaerenlauf)。
+化作光芒，破坏前敌，一击之间，燃尽自身(Da flammt ein blitzendes Verheeren Dem Pfade vor des Donnerschlags)。其者，前人莫知，前人未至，至高创造矣(Da keiner dich ergruenden mag, Und akke deinen hohen Werke)。
+吾人之渴望方是原初之庄严(Sind herrlich wie am ersten Tag)，创造(Briah)——美丽刹那・序曲(Eine Faust Ouvertrüe)
+
+#### 流出
+
+ori:「[Es schaeumt das Meer in breiten Fluessen ](海は幅広く 無限に広がって流れ出すもの) [Am tiefen Grund der Felsen auf,](水底の輝きこそが永久不変)」「[Und Fels und Meer wird fortgerissen In ewig schnellem Sphaerenlauf.](永劫たる星の速さと共に 今こそ疾走して駆け抜けよう)」「[Doch deine Boten,](どうか聞き届けてほしい) [Herr, verehren Das sanfte Wandeln deines Tags.](世界は穏やかに安らげる日々を願っている)」「[Auf freiem Grund mit freiem Volke stehn.](自由な民と自由な世界で) [Zum Augenblicke duerft ich sagen](どうかこの瞬間に言わせてほしい)」「[Verweile doch du bist so schön](時よ止まれ 君は誰よりも美しいから)――」「[Das Ewig-Weibliche Zieht uns hinan.](永遠の君に願う 俺を高みへと導いてくれ)」「[Atziluth](流出)――」「[Res novae](新世界へ)――」「[Also sprach Zarathustra](語れ超越の物語)」
+
+gpt3.5: 「[Es schaeumt das Meer in breiten Fluessen ](海洋辽阔无垠 无限延伸流淌的东西) [Am tiefen Grund der Felsen auf,](水底的光芒永恒不变)」「[Und Fels und Meer wird fortgerissen In ewig schnellem Sphaerenlauf.](随着永恒星球的速度 现在就疾驰而过吧)」「[Doch deine Boten,](希望你能听到。) [Herr, verehren Das sanfte Wandeln deines Tags.](世界渴望着平静安宁的日子。)」「[Auf freiem Grund mit freiem Volke stehn.](在自由的人民和自由的世界里) [Zum Augenblicke duerft ich sagen](请让我在这一刻说出来)」「[Verweile doch du bist so schön](时光停驻吧 因为你比任何人都美丽)――」「[Das Ewig-Weibliche Zieht uns hinan.](向永恒的你许愿 引领我走向巅峰)」「[Atziluth](流出)――」「[Res novae](通往新世界)――」「[Also sprach Zarathustra](述说超越的故事)」
+
+example:
+海也幅广，所谓无限远泛，溢满流出之物(Es schaeumt das Meer in breiten Fluessen)。水底光辉，方是永久不变(Am tiefen Grund der Felsen auf,)。
+今同永劫星辰之速，共相疾走，奔驰超越(Und Fels und Meer wird fortgerissen In ewig schnellem Sphaerenlauf.)。冀求此愿届天，奉当听闻(Doch deine Boten,)。
+一心一意，只愿世界日日安稳(Herr,verehren Das sanfte Wandeln deines Tags.)。於自由苍生与自由世界间(Auf freiem Grund mit freiem Volke stehn.)，仍愿在此瞬间，令吾诉言(Zum Augenblicke duerft ich sagen)。
+时矣止之。何以，汝者美兮，更胜万物矣(Verweile doch du bist so schon)——永远之君，向汝叹愿，引导吾人，直至至高(Das Ewig-Weibliche Zieht uns hinan.)。
+流出(Atziluth)——至新世界(Res novae)・赞颂矣，超越之物语(Also sprach Zarathustra)。
+
+
+
+---
+
+玛丽 莲的圣遗物 被水银所爱慕着的诅咒之子
+ori: 「血、血、血、血が欲しい。ギロチンに注ごう、飲み物を。ギロチンの渇きを癒すため。欲しいのは、血、血、血」
+
+example:血、血、血，吾欲鲜血。浇注于断头台上，甘霖饮品。为癒断头台之渴求。所欲无他，唯血、血、血
+
+
+---
