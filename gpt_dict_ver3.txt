@@ -1,0 +1,116 @@
+蓮	莲	player's name, boy
+レン	莲	player's name, boy
+ツァラトゥストラ	查拉图斯特拉	name, boy
+香純	香纯	name, girl
+カスミ	香纯	name, girl
+綾瀬	绫濑	name, girl
+玲愛	玲爱	name, girl
+氷室	冰室	name, girl
+先輩	学姐
+センパイ	学姐
+テレジア	特蕾西亚	name, girl
+ゾーネンキント	佐南金索
+螢	萤	name, girl
+櫻井	櫻井	name, girl
+レオンハルト	莱昂哈特	name, girl
+レオン	莱昂	name, girl
+司狼	司狼	name, boy
+シロウ	司狼	name, boy
+遊佐	游佐	name, boy
+戒	戒	name, boy
+カイン	凯因
+トバルカイン	托巴尔凯因	name, man
+マリィ	玛丽	name, girl
+マルグリット	玛格丽特	name, girl
+エリー	艾莉	name, girl
+本城	本城	name, girl
+
+ルサルカ	鲁萨尔卡	name, girl
+シュヴェーゲリン	修薇格林	name, girl
+マレウス	马里乌斯	name, girl
+アンナ	安娜	name, girl
+ラインハルト	莱因哈特	name, man
+ハイドリヒ	海德里希	name, man
+メルクリウス	梅尔克里乌斯	name, man
+カール	卡尔	name, man
+クラフト	克拉夫特	name, man
+カリオストロ	卡里奥斯特罗	name, man
+トリファ	托里法	name, man
+ヴァレリア	瓦雷利亚	name, man
+クリストフ	克里斯托夫	name, man
+聖餐杯	圣餐杯	name, man
+神父	神父	
+ヴィルヘルム	威廉	name, man
+ベイ	贝	name, man
+エーレンブルグ	爱登堡	name, man
+リザ	丽莎	name, woman
+バビロン	巴比伦	name, woman
+ブレンナー	布伦娜	name, woman
+シュライバー	施赖伯	name, boy
+ウォルフガング	沃尔夫冈	name, boy
+ベルリッヒンゲン	贝尔里辛根	name, man
+マキナ	马基那	name, man
+ザミエル	扎米尔	name, woman
+エレオノーレ	艾莱奥诺莱	name, woman
+フォン	冯
+ヴィッテンブルグ	威登堡	name, woman
+シュピーネ	舒庇涅	name, man
+ベアトリス	贝阿朵丽丝	name, woman
+ヴァルキュリア	瓦尔基里亚	name, woman
+キルヒアイゼン	吉尔希森	name, woman
+
+イザーク	伊萨克	name, man
+ヨハン	约翰	name, man
+
+ロートス	罗特斯	name, man
+ヴァルター	瓦尔特	name, boy
+
+ジークリンデ	齐格琳德	name, girl
+ジェーン	简	name, lady
+フォルカー	福尔克	name, man
+アルフレート	阿尔弗雷德	name, man
+カズィクル	穿刺公	name, man
+ミハエル	迈克尔	name, man
+ヴァレリアン	瓦雷利亚	name, man
+ゲッツ	格茨	name, woman
+ヨアヒム	约阿希姆, name, man
+ローエングリーン	罗恩格林	name, man
+
+ゲシュタポ	盖世太保
+ジークハイル	胜利万岁
+ヴェヴェルスブルグ	韦维尔斯堡
+ムスペルヘイム	穆斯帕尔海姆
+グラズヘイム	格拉兹海姆
+シャンバラ	香巴拉
+ヴァルハラ	瓦尔哈拉
+ドイツ	德国
+ベルリン	柏林
+エイヴィヒカイト	永劫破坏
+エインフェリア	英灵
+黒円卓	黑圆桌
+スワスチカ	炼成阵
+ギロチン	断头台
+聖櫃	圣柜
+ノリ	Noli
+レーベンスボルン	生命之泉
+
+\\ 测试后添加
+
+
+猊下	猊下
+聖餐杯猊下	聖餐杯猊下
+偽槍	伪枪
+流出	流出
+ハイドリヒ卿	海德里希卿
+重畳	很好
+城	魔城
+アルフヘイム	亚尔夫海姆
+水銀	水银
+ドイチェス・アーネンエルベ	祖先遗产学会
+
+ライヒハート	莱希哈特, name, man
+ロートス・ライヒハート	罗特斯·莱希哈特, name, man
+ロートス	罗特斯, name, man
+ジーク・ハイル	胜利万岁
+生贄	祭品
+
