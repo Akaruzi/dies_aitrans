@@ -1,6 +1,6 @@
 # 项目说明
 
-本项目旨在基于Galtransl等ai翻译工具对dies irae的文本进行汉化翻译
+本项目旨在基于Galtransl等ai翻译工具对dies irae的文本进行汉化翻译。
 
 # 目前进度
 
@@ -26,9 +26,8 @@ Todo list
 2. 尝试调教gpt字典，利用galtransl进行优质翻译 （并行）
 3. 编写脚本替换解包剧本，并手动校错  （doing √
 	4. 需要分别修改剧本文本和选项文本 √
-4. 使用工具打包exec.dat
-5. 利用resource hacker整合原exe文件和exec.dat √
-6. 测试游戏
+4. 利用resource hacker整合原exe文件和exec.dat √
+5. 测试游戏
 7. 发布补丁
 
 
