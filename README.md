@@ -5,19 +5,17 @@
 ---
 Todo list
 1. data文件解包，以及剧本提取 √
-
 2. 尝试调教gpt字典，利用galtransl进行优质翻译 （并行）√
-
 3. 人工校对剧本文件（doing）
-	
-3. 测试游戏
-	
+4. 测试游戏
 3. 发布补丁
 	
-	
-	
+
+
 
 # 目前进度
+
+
 
 2023-01-10 更新：找到了愿意做校对的dalao，现在打算等完全校对后发布，后续应该会很快吧。
 
@@ -35,11 +33,13 @@ aa版因为是全年龄版，很多cg遭到了剪裁，经过测试替换原cg�
 
 aef版hcg会用英版的无码cg进行替换。
 
----
+
 
 # 使用指北
 
 项目做完后会发布补丁，目前还在施工阶段所以下面将重点讲如何基于原装游戏启用汉化，方便快速测试。
+
+
 
 ## 概念篇
 
@@ -49,9 +49,15 @@ aef版hcg会用英版的无码cg进行替换。
 
 Malie engine：light社自研引擎，不开源而且处理起来比较麻烦，一定程度上影响了light社作品的汉化，好在现在有其他dalao搭好的工具，本项目也收益于此。
 
+
+
 exec.dat：malie引擎读取剧本的封包文件，一般位置都封装在`data1.dat/data/system/`路径下，好像部分light社的老游戏会封装在malie.exe里，具体不做详细讨论。DI的日版都放在data1.dat文件里，英化aa版则是data3.dat，DX版aa的exec.dat文件封包在data3.dat，而aef则是在data4.dat里。
 
+
+
 ## 工具篇（解包封包）
+
+
 
 ### Garbro
 
@@ -59,15 +65,21 @@ Garbro是一款开源且广受好评的galgame解包工具，可以直接在gith
 
 DI是基于malie引擎，这个引擎会按顺序读取malie.exe的封包文件（如果有），然后是目录下的data文件夹或者是data.dat封包文件。我们可以通过garbro解包data1.dat（exec.dat存在的封包文件，英版则不同），可以得到一个data文件夹，将其放置于游戏根目录，并把其中的exec.dat替换成我们翻译后的exec.dat文件，将原data1.dat文件删掉或者放到非根目录下后，启动游戏后就会读取新的exec.dat文件，也就是汉化启动了。
 
+
+
 ### Malie_Script_Tool
 
 Malie_Script_Tool是大佬[crskycode](https://github.com/crskycode/Malie_Script_Tool)开源的malie引擎处理工具，本项目直接使用了巴西大佬[Monaco-a-Knox](https://github.com/Monaco-a-Knox/Dia-da-Ira)翻译DI的项目下编译好的工具。
 
+
+
 本项目根目录compiler\Malie_Script_Tool下分别有两个文件夹，compilar和decompilar对应封包工具和解包工具。使用操作都大差不差，先以解包为例，进入对应的Debug文件夹
 
-![image-20240109233604458](RE想·ADME.assets/image-20240109233604458.png)
+![image-20240109233604458](README.assets/image-20240109233604458.png)
 
 Malie_Script_Tool.exe是运行解包的程序，我们只需要将exec.dat文件放到data/system文件夹，运行程序会自动生成解包剧本文件，exec.msg.txt和exec.str.txt 前者是文本剧本，也是主要翻译的施工地。后者是演出调用剧本，选项文本在里面，其他都是图片或者语音文件的调用。
+
+
 
 然后是封包，将exec.msg.txt和exec.str.txt回封成exec.dat。解包一样将修改好的exec.msg.txt于exec.str.txt放置于data/system文件夹，然后确保目录下有一个exec.org.dat的文件。这个dat文件必须是你解包出两个剧本文件的原exec.dat重命名后的文件，而且翻译后的剧本文件(exec.msg.txt和exec.str.txt)的行数不能增加或减少，因为内存地址已经具体分配了。运行程序之后，在Debug/.data/system目录下会生成修改后的exec.dat文件，封包的工作就完成了。
 
@@ -75,7 +87,11 @@ Malie_Script_Tool.exe是运行解包的程序，我们只需要将exec.dat文件
 
 
 
+
+
 ## 翻译篇
+
+
 
 如前言所说，我们需要做的主要工作是把剧本文件exec.msg.txt汉化，然后再封回exec.dat。那我们该如何修改剧本呢？
 
@@ -85,13 +101,19 @@ Malie_Script_Tool.exe是运行解包的程序，我们只需要将exec.dat文件
 
 ![image-20240110012428110](README.assets/image-20240110012428110.png)
 
-还有个需要注意的地方，游戏几乎所有的吟唱和一些外来词都采用了注音的方式标注，语法跟markdown的超链接相同`[原文](注音)`，这部分都建议保留并翻译注音部分。
+游戏几乎所有的吟唱和一些外来词都采用了注音的方式标注，语法跟markdown的超链接相同`[原文](注音)`，这部分都建议保留并翻译注音部分。
 
 ![image-20240110012950444](README.assets/image-20240110012950444.png)
 
 
 
 **注意事项**：原文第一行都不要改动。不要改变行数，保持与最初的解包剧本的一致。不然都有可能导致封包不能
+
+
+
+### 基于英版翻译
+
+DI是一款日式adv视觉小说，因此本篇最开始基于的汉化文本为日语，出于文本准确度的考虑我仅使用galtrans翻译了日语版剧本。而如果需要基于英语汉化，需要手动调节原剧本达到与英版的对应。
 
 
 
