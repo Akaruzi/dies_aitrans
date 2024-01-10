@@ -43,7 +43,7 @@ aef版hcg会用英版的无码cg进行替换。
 
 ## 概念篇
 
-游戏版本：DI初回是在07年，最初发布的Dies irae Also sprach Zarathustra由于还只是半成品的缘故，导致了“怒りの日事件”这起炎上事故，后续light社又补发几个版本，剧本上都有新的补充。目前DI一般泛指的是Dies irae ～Acta est Fabula～和Dies irae ~Amantes amentes~ 前者是R18版，后者是全年龄版也是steam上和任天堂上的版本。两者差别除了分级之外，后者（简称aa版）较之前者（简称aef版），补充other story 各种后日谈和前传，还有安娜end的补票以及玲爱线增加一条TE，也就是三神战结局。这个结局非常值得游玩，所以强烈建议aef版之后，一定要补aa版。说回正题，官方发行的日语版本就这俩个。light发布的英版主要也是两个版本，分别是英化aa版和DX版。前者上架了steam，共通线部分免费，每个女主的线路都需要购买单独的dlc（分割商法被light社懂完了）不用说对应的是全年龄的日版aa。而后者则是mangagamer上架的版本，里面同时封包了全年龄的aa版和R18的aef版，但系统不共用，需要分别运行对应的启动程序。（由于是英化的R18版，hcg也均是无码）
+游戏版本：DI初回是在07年，最初发布的Dies irae Also sprach Zarathustra由于还只是半成品的缘故，导致了“怒りの日事件”这起炎上事故，后续light社又补发几个版本，剧本上都有新的补充。目前DI一般泛指的是Dies irae ～Acta est Fabula～和Dies irae ~Amantes amentes~ 前者是R18版，后者是全年龄版也是steam上和任天堂上的版本。两者差别除了分级之外，后者（简称aa版）较之前者（简称aef版），补充other story 各种后日谈和前传，还有安娜end的补票以及玲爱线增加一条TE，也就是三神战结局。这个结局非常值得游玩，所以强烈建议aef版之后，一定要补aa版。说回正题，官方发行的日语版本就这俩个。light发布的英版主要也是两个版本，分别是英化aa版和DX版。前者上架了steam，共通线部分免费，每个女主的线路都需要购买单独的dlc（分割商法被light社懂完了）不用说对应的是全年龄的日版aa。而后者则是mangagamer上架的版本，里面同时封包了全年龄的aa版和R18的aef版，但系统不共用，需要分别运行对应的启动程序。
 
 
 
@@ -65,7 +65,7 @@ Malie_Script_Tool是大佬[crskycode](https://github.com/crskycode/Malie_Script_
 
 本项目根目录compiler\Malie_Script_Tool下分别有两个文件夹，compilar和decompilar对应封包工具和解包工具。使用操作都大差不差，先以解包为例，进入对应的Debug文件夹
 
-![image-20240109233604458](README.assets/image-20240109233604458.png)
+![image-20240109233604458](RE想·ADME.assets/image-20240109233604458.png)
 
 Malie_Script_Tool.exe是运行解包的程序，我们只需要将exec.dat文件放到data/system文件夹，运行程序会自动生成解包剧本文件，exec.msg.txt和exec.str.txt 前者是文本剧本，也是主要翻译的施工地。后者是演出调用剧本，选项文本在里面，其他都是图片或者语音文件的调用。
 
