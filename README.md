@@ -28,7 +28,7 @@ di的汉化项目现已从原坑主接过手了，ai翻译的补丁大概率不�
 
 Garbro是一款开源且广受好评的galgame解包工具，可以直接在github上找到，我也打包在了本仓库的tools目录。
 
-DI是基于malie引擎，这个引擎会按顺序读取malie.exe的封包文件（如果有），然后是目录下的data文件夹或者是data.dat封包文件。我们可以通过garbro解包data1.dat（exec.dat存在的封包文件，英版则不同），可以得到一个data文件夹，将其放置于游戏根目录，并把其中的exec.dat替换成我们翻译后的exec.dat文件，将原data1.dat文件删掉或者放到非根目录下后，启动游戏后就会读取新的exec.dat文件，也就是汉化启动了。
+- DI是基于malie引擎，这个引擎会按顺序读取malie.exe的封包文件（如果有），然后是目录下的data文件夹或者是data.dat封包文件。我们可以通过garbro解包data1.dat（exec.dat存在的封包文件，英版则不同），可以得到一个data文件夹，将其放置于游戏根目录，并把其中的exec.dat替换成我们翻译后的exec.dat文件，将原data1.dat文件删掉或者放到非根目录下后，启动游戏后就会读取新的exec.dat文件，也就是汉化启动了。
 
 
 
