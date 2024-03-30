@@ -1,12 +1,17 @@
 # Diesirae Fansclub
 
-补丁由Diesirae Fansclub汉化组所制作，将发布在release
+补丁由Diesirae Fansclub汉化组所制作
+
+特别感谢老组所做的初翻，前程序提供的启发和帮助
+
+补丁将发布在release
 
 内容包括steam免费版汉化补丁，steam版英转日补丁，steam版粉丝回赠aef版英转日补丁
 
 di的浅薄考据：https://diesiraefansclub.gitbook.io/di_wiki
 
 ---
+
 本项目的主要启发来自隔壁做di翻译巴西哥Knox，所以也来分享一下di补丁制作的过程，希望能给其他汉化基于malie引擎游戏的坑友些许启发。
 
 ## 工具
@@ -37,7 +42,7 @@ malie可以读取封包外的文件，但优先度是封包文件大于未封包
 
 - 翻译文本。di的英版翻译本土化（美国化）过于严重，相较原日版偏差太多，只建议基于日语文本来翻译。
 
-日版和英版的剧本相差了300+行，部分语音调用也被修改了。制作steam版补丁必须基于steam版的剧本文件，所以我对照着steam英版的文本做了一个英日对照的字典 (steam2jp.json) ，可以以此替换steam版剧本方便对着日语进行翻译。替换好的文件见(exec.msg_steam2jp.txt)
+日版和英版的剧本相差了300+行，部分语音调用也被修改了。制作steam版补丁必须基于steam版的剧本文件，所以我对照着steam英版的文本做了一个英日对照的字典 (**steam2jp.json**) ，可以以此替换steam版剧本方便对着日语进行翻译。替换好的文件见(**exec.msg_steam2jp.txt**)
 
 ### 字体&窗体标题
 
