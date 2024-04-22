@@ -1,10 +1,10 @@
 # Diesirae Fansclub
 
+![汉化staff](https://github.com/Akaruzi/dies_aitrans/assets/119655555/8cb6c93f-4d68-490e-aca5-9a6178ac72f3)
+
 补丁由Diesirae Fansclub汉化组所制作
 
 特别感谢老组所做的初翻，前程序提供的启发和帮助
-
-补丁将发布在release
 
 内容包括steam免费版汉化补丁，steam版英转日补丁，steam版粉丝回赠aef版英转日补丁
 
