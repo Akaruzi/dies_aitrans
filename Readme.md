@@ -12,7 +12,7 @@ di的浅薄考据：https://diesiraefansclub.gitbook.io/di_wiki
 
 ---
 
-本项目的主要启发来自隔壁做di翻译巴西哥Knox，所以也来分享一下di补丁制作的过程，希望能给其他汉化基于malie引擎游戏的坑友些许启发。
+本项目的主要启发来自隔壁做di翻译巴西哥[Monaco-a-Knox](https://github.com/Monaco-a-Knox)和[Cosetto](https://github.com/Cosetto)，所以也来分享一下di补丁制作的过程，希望能给其他汉化基于malie引擎游戏的坑友些许启发。
 
 ## 工具
 涉及到的工具一览（见Tools文件夹）
